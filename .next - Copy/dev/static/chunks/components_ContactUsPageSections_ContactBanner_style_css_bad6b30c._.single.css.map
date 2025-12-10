@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/ContactUsPageSections/ContactBanner/style.css"],"sourcesContent":["    :root {\r\n    --grey: #d6d6d6 !important;\r\n    --transper: hsla(67, 97%, 72%, 0.2);\r\n    --font-fam: \"Outfit\", sans-serif !important;\r\n\r\n    \r\n}\r\n.contactBanner{\r\n    width: 100%;\r\n    height: 300px;\r\n    background-color: #2478ff;\r\n    padding:80px 40px 80px 40px;\r\n}\r\n.contactBanner > .bannerContent >     h2{\r\n    font-size: 56px;\r\n    line-height: 1.1;\r\n    font-family: var(--font-fam);\r\n    font-weight: 600;\r\n}\r\n.contactBanner > .bannerContent > p{\r\n    font-family: var(--font-fam);\r\n}\r\n.bannerImage {\r\n    height: 300px;\r\n    width: 100%;\r\n}\r\n.bannerImage  > img {\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n}"],"names":[],"mappings":"AAAI;;;;;;AAOJ;;;;;;;AAMA;;;;;;;AAMA;;;;AAGA;;;;;AAIA"}}]
+}

@@ -1,0 +1,59 @@
+.mission_content > h5{
+     display: inline-block;
+   background: linear-gradient(
+    to top,
+    hsla(113, 56%, 80%, calc(100% - 40%)),
+    transparent 40%
+  );
+    color: #1c1d26;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: start;
+}
+.mission_content {
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    align-items: start;
+}
+.mission_text{
+   display: flex;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   justify-content: center; 
+}
+.mission_content > h2
+{
+ font-size: 42px;
+    line-height: 1.1;
+    color: #1c1d26;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.mission_img {
+  width: 92%;
+  height: 500px;
+  background-image: url("./img/mission.webp");
+  background-size: cover;
+  object-fit: cover;
+
+}
+.mission_content > p{
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.mission_content > .button > button {
+  padding: 23px 10px 10px 10px;
+  border-bottom:  1px solid #e0e0e0;
+  font-size: 24px;
+  font-weight: 600;
+  /* font-family: Outfit, Arial, Helvetica, sans-serif; */
+}
+.mission_content > .button > button > span > svg {
+  transform: rotate(330deg);
+}

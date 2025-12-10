@@ -1,0 +1,152 @@
+.exper_section_title > h5 {
+ display: inline-block;
+    padding: 4px 8px;
+    background: linear-gradient(to top, hsla(52, 96%, 58%, calc(100% - 60%))  40%, transparent 40%);
+    color: #383838;
+    font-size: 18px;
+    font-weight: 700;
+    
+    margin-top: 10px;
+}
+    .exper_section_title > h2
+    {
+    font-weight: 600;
+    font-size: 42px;
+    }
+.section_expert_padding{
+    background-color: #f4f4f4;
+    /*  */
+}
+/* ******************* */
+.exper_detail > .card {
+    background-color: #ffffff17;
+    border: none;
+}
+.exper_detail > .card > .img{
+    position: relative;
+    overflow: hidden;
+}
+.exper_detail > .card > .img::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";  
+      border-radius: 20px;
+    background: linear-gradient(180deg, hsla(234, 15%, 13%,calc(100% - 100%)) 70%, #1c1d26 100%);
+}
+.exper_detail > .card  > .detail > .expert_name > h3{
+    color:#1c1d26;
+    font-weight: 600;
+    font-size: 24px;
+
+
+}
+.exper_detail > .card  > .detail > .expert_position > p
+{
+color:#1c1d26;
+font-weight: 300;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -------------------------     icon     --------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>       */
+.exper_detail > .card:hover .icon_box{
+bottom: 2px;
+    opacity: 1;
+display: block;
+  /* transition: .42s ease-in-out; */
+}
+.icon_box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  bottom: -35px;
+    opacity: 0;
+      transition: .42s ease-in-out;
+    right: 0;
+}
+.expert_icon_wrapper{
+  display: inline-flex;
+  list-style: none;
+  height: 40px;
+  width: 100%;
+  padding: 0;
+  background-color: #fbe12e;
+
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.expert_icon_wrapper .icon {
+position: relative;
+ 
+    margin: 10px;
+
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.expert_icon_wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.expert_icon_wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.expert_icon_wrapper .icon:hover .tooltip {
+  top: -40px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.expert_icon_wrapper .icon:hover span,
+.expert_icon_wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.expert_icon_wrapper .facebook:hover .tooltip,
+.expert_icon_wrapper .facebook:hover .tooltip::before {
+  
+  color: #fff;
+   background: #383838;
+}
+
+.expert_icon_wrapper .twitter:hover .tooltip,
+.expert_icon_wrapper .twitter:hover .tooltip::before {
+ 
+    background: #383838;
+  color: #fff;
+}
+
+
+
+.expert_icon_wrapper .instagram:hover .tooltip,
+.expert_icon_wrapper .instagram:hover .tooltip::before {
+  background: #383838;
+  color: #fff;
+}

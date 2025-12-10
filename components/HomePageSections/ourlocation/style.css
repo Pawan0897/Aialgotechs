@@ -1,0 +1,27 @@
+
+:root{
+    --font-fm :"Outfit", sans-serif !important;
+}
+h2,h3,p{
+    font-family :var(--font-fm)
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.location_title > h3{
+color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.location  .location_icon  svg{
+color:#fff;
+}
+.location > .location_address > p {
+color: #fff;
+    font-weight: 400;
+    line-height: 28px;
+    
+    letter-spacing: -.46px;
+}

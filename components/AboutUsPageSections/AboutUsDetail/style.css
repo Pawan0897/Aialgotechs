@@ -1,0 +1,83 @@
+
+:root {
+    --grey: #d6d6d6 !important;
+    --transper: hsla(67, 97%, 72%, 0.2);
+    --font-fam: "Outfit", sans-serif !important;
+}
+.employmentsolution>.title h6 {
+    display: inline-block;
+    padding: 4px 8px;
+    background: linear-gradient(to top, hsla(52, 96%, 58%, calc(100% - 60%))  40%, transparent 40%);
+    color: #383838;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font-fam);
+    margin-top: 10px;
+}
+.employmentsolution>.title h2
+{
+    font-size: 42px;
+    line-height: 1.1;
+    color: #1c1d26;
+    font-weight: 600;
+}
+
+.arrow_icon > svg { 
+
+    color: #e0e0e0;
+    font-size: 130px;
+}
+/* ***************** */
+.recruiter_detail .title > h3{
+    font-size: 24px;
+    font-family: var(--font-fam);
+    line-height: 1.4;
+    font-weight: 700;
+}
+.recruiter_detail .title > p
+{
+    font-family: var(--font-fam);
+}
+.recruiter_detail .title > button
+{
+    background-color: #fbe12e;
+    color: #ffff;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.recruiter{
+    position: relative;
+    height: 100%;
+}
+.recruiter > .growth_box
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left:0;
+}
+.placement_growth{
+    padding: 72px 42px;
+}
+.placement_growth  > .box:before {
+  content: "\e91b";
+  font-family: 'YourIconFont';
+}
+.placement_growth  > .box > h2{
+    font-size: 80px;
+    word-spacing: -0.63px;
+    font-weight: 600;
+    font-family: var(--font-fam);
+    line-height: 1.1;
+    text-align: left;
+}
+.placement_growth  > .box > p
+{
+    font-size: 19px;
+    font-family: var(--font-fam);
+    word-spacing: -0.010em;
+    text-transform: capitalize;
+    font-weight: 700;
+}

@@ -1,0 +1,26 @@
+.service_banner{
+    
+    width: 100%;
+    height: 300px;
+    background-color: #2478ff;
+    padding:80px 40px 80px 40px;
+
+}
+.banner_img {
+    height: 300px;
+    width: 100%;
+}
+.banner_img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.service_banner > .banner_content >   h2{
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+.service_banner > .banner_content > p {
+    font-weight: 300;
+    font-size: 16px;
+}

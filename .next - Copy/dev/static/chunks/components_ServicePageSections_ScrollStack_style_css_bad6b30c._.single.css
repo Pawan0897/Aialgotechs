@@ -1,0 +1,168 @@
+/* [project]/components/ServicePageSections/ScrollStack/style.css [app-client] (css) */
+.cards {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 90px;
+  display: flex;
+  position: relative;
+}
+
+.custom-card {
+  color: #fff;
+  object-fit: cover;
+  background-image: url("../media/executive-search.00910bb0.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 0;
+  box-shadow: 0 0 30px #0003;
+}
+
+.card2, .card3, .card4 {
+  top: 0;
+}
+
+.opacity {
+  -o-transition: .44s ease;
+  opacity: .6;
+  transition: all .44s;
+}
+
+.scale {
+  moz-transition: .44s ease;
+  -o-transition: .44s ease;
+  width: 95%;
+  transition: all .44s;
+}
+
+.stack_img > img {
+  width: 100%;
+  height: auto;
+}
+
+.scrollStack_content {
+  background-color: #f4f4f4;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  padding: 100px;
+  display: flex;
+}
+
+.scrollStack_content > .content > .stack_icon > svg {
+  color: #d9d9d9;
+  font-size: 170px;
+  transform: rotate(311deg);
+}
+
+.scrollStack_content > .content > .stack_title > h5 {
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+  background: linear-gradient(to top, #b6e9af99, #0000 40%);
+  margin-top: 10px;
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.scrollStack_content > .content > .stack_title > h2 {
+  color: #1c1d26;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.scrollStack_content > .content > .stack_title > p {
+  color: #1c1d26;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.scrollStack_content > .content > .stack_title > .button > a {
+  color: #fff;
+  background-color: #1c1d26;
+  align-items: center;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+
+.scrollStack_content > .content > .stack_title > .button > a > p {
+  margin: 0;
+}
+
+.scrollStack_content > .content > .stack_title > .button > a > span > svg {
+  font-size: 30px;
+  transform: rotate(330deg);
+}
+
+.scrollStack_content > .content > .stack_title > .button > a > span:nth-child(2) > svg {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.md-scroll-details {
+  margin: 30px 10px;
+}
+
+.md-scroll-details > .title > h5 {
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+  background: linear-gradient(to top, #b6e9af99, #0000 40%);
+  margin-top: 10px;
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.md-scroll-details > .title > h2 {
+  color: #1c1d26;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.md-scroll-details > .title {
+  color: #1c1d26;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+}
+
+.md-scroll-details > .button > a {
+  color: #fff;
+  background-color: #1c1d26;
+  align-items: center;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+
+.bg-backgorund {
+  position: relative;
+}
+
+.bg-backgorund:before {
+  content: "";
+  z-index: -1;
+  background-color: #f4f4f4;
+  position: absolute;
+  inset: 0 50% 0 -2%;
+}
+
+/*# sourceMappingURL=components_ServicePageSections_ScrollStack_style_css_bad6b30c._.single.css.map*/

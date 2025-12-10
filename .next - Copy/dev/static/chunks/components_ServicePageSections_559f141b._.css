@@ -1,0 +1,545 @@
+/* [project]/components/ServicePageSections/Banner/style.css [app-client] (css) */
+.service_banner {
+  background-color: #2478ff;
+  width: 100%;
+  height: 300px;
+  padding: 80px 40px;
+}
+
+.banner_img {
+  width: 100%;
+  height: 300px;
+}
+
+.banner_img > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.service_banner > .banner_content > h2 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.service_banner > .banner_content > p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* [project]/components/ServicePageSections/Requirement/style.css [app-client] (css) */
+.sectiom_title > h5 {
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+  background: linear-gradient(to top, #fbdf2d66 40%, #0000 40%);
+  margin-top: 10px;
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.sectiom_title > h2 {
+  color: #1c1d26;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.section_cards {
+  margin: 20px 21px;
+}
+
+.section_cards:hover .card > .card_icon {
+  transform: translateX(40px);
+}
+
+.section_cards > .card {
+  border-radius: 30px;
+  flex-direction: column;
+  padding: 65px 40px;
+}
+
+.section_cards:hover .card > .card_icon:hover:before {
+  background: #f0f0f0;
+}
+
+.section_cards > .card > .card_icon {
+  cursor: pointer;
+  width: 75px;
+  height: 75px;
+  margin: 10px 0 40px;
+  transition: all .32s ease-in-out;
+  position: relative;
+}
+
+.section_cards > .card > .card_icon:before {
+  content: "";
+  background: #fbdf2d26;
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+}
+
+.section_cards > .card > .card_icon > svg {
+  color: #1c1d26;
+  font-size: 80px;
+  position: relative;
+}
+
+.section_cards > .card > .card_title > h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.section_cards > .card > .card_title > p {
+  color: #1c1d26;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.section_cards > .card > .card_options > p {
+  color: #1c1d26;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.section_cards > .card > .card_options > p > span > svg {
+  color: #2478ff;
+  margin-right: 10px;
+  transform: rotate(315deg);
+}
+
+/* [project]/components/ServicePageSections/Staffing/style.css [app-client] (css) */
+.staffing_box > .staffing_detail {
+  padding: 20px;
+}
+
+.staffing_box {
+  margin: 0 15px;
+}
+
+.staffing_box > .staffing_detail .title > h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.staffing_box > .staffing_detail .title {
+  padding: 10px 0;
+}
+
+.staffing_box > .staffing_detail .title > .icon > svg {
+  color: #2478ff;
+  margin-right: 24px;
+  font-size: 50px;
+  line-height: 1.4;
+}
+
+.staffing_box > .staffing_detail > .show_text > p {
+  color: #1c1d26;
+  opacity: 0;
+  margin-top: -10px;
+  padding-bottom: 0;
+  font-size: 13px;
+  font-weight: 300;
+  transition: all .3s ease-in-out;
+  transform: translateY(-10px);
+}
+
+.staffing_box:hover .staffing_detail > .show_text > p {
+  opacity: 1;
+  margin: 0;
+  padding-bottom: 10px;
+  transform: translateY(0);
+}
+
+/* [project]/components/ServicePageSections/ScrollStack/style.css [app-client] (css) */
+.cards {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 90px;
+  display: flex;
+  position: relative;
+}
+
+.custom-card {
+  color: #fff;
+  object-fit: cover;
+  background-image: url("../media/executive-search.00910bb0.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 0;
+  box-shadow: 0 0 30px #0003;
+}
+
+.card2, .card3, .card4 {
+  top: 0;
+}
+
+.opacity {
+  -o-transition: .44s ease;
+  opacity: .6;
+  transition: all .44s;
+}
+
+.scale {
+  moz-transition: .44s ease;
+  -o-transition: .44s ease;
+  width: 95%;
+  transition: all .44s;
+}
+
+.stack_img > img {
+  width: 100%;
+  height: auto;
+}
+
+.scrollStack_content {
+  background-color: #f4f4f4;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  padding: 100px;
+  display: flex;
+}
+
+.scrollStack_content > .content > .stack_icon > svg {
+  color: #d9d9d9;
+  font-size: 170px;
+  transform: rotate(311deg);
+}
+
+.scrollStack_content > .content > .stack_title > h5 {
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+  background: linear-gradient(to top, #b6e9af99, #0000 40%);
+  margin-top: 10px;
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.scrollStack_content > .content > .stack_title > h2 {
+  color: #1c1d26;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.scrollStack_content > .content > .stack_title > p {
+  color: #1c1d26;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.scrollStack_content > .content > .stack_title > .button > a {
+  color: #fff;
+  background-color: #1c1d26;
+  align-items: center;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+
+.scrollStack_content > .content > .stack_title > .button > a > p {
+  margin: 0;
+}
+
+.scrollStack_content > .content > .stack_title > .button > a > span > svg {
+  font-size: 30px;
+  transform: rotate(330deg);
+}
+
+.scrollStack_content > .content > .stack_title > .button > a > span:nth-child(2) > svg {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.md-scroll-details {
+  margin: 30px 10px;
+}
+
+.md-scroll-details > .title > h5 {
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+  background: linear-gradient(to top, #b6e9af99, #0000 40%);
+  margin-top: 10px;
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.md-scroll-details > .title > h2 {
+  color: #1c1d26;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.md-scroll-details > .title {
+  color: #1c1d26;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+}
+
+.md-scroll-details > .button > a {
+  color: #fff;
+  background-color: #1c1d26;
+  align-items: center;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+
+.bg-backgorund {
+  position: relative;
+}
+
+.bg-backgorund:before {
+  content: "";
+  z-index: -1;
+  background-color: #f4f4f4;
+  position: absolute;
+  inset: 0 50% 0 -2%;
+}
+
+/* [project]/components/ServicePageSections/TalentSourcing/style.css [app-client] (css) */
+.talentSource_title > h5 {
+  color: #b7e9b0;
+  background: linear-gradient(to top, #b6e9af99, #0000 40%);
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.talentSource_title {
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.talentSource_title > h2 {
+  color: #f7f7f7;
+  text-transform: capitalize;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.talentSource_title > p {
+  columns: 1;
+  color: #fffc;
+  font-size: 24px;
+}
+
+.talent_source_bg {
+  background-color: #00358a;
+  position: relative;
+}
+
+.talent_source_box {
+  justify-content: center;
+  align-items: center;
+  padding: 0 95px 95px;
+}
+
+.top_header_bg {
+  justify-content: end;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.circle_section {
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+}
+
+.circle_box {
+  border: 2px dotted #f7f7f7;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.circle_box > .icon {
+  background-color: #00358a;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+}
+
+.circle_box > .icon > svg {
+  color: #f7f7f7;
+  font-size: 26px;
+}
+
+.circle_box > .icon:first-child {
+  top: 25%;
+  left: 0;
+}
+
+.circle_box > .icon:nth-child(2) {
+  top: 25%;
+  right: 0;
+}
+
+.circle_box > .icon:nth-child(3) {
+  top: 68%;
+  right: 0;
+}
+
+.circle_box > .icon:nth-child(4) {
+  top: 68%;
+  left: 0;
+}
+
+.circle_box > .icon:nth-child(5) {
+  bottom: -5%;
+  left: 45%;
+}
+
+.circle_box > .icon:nth-child(6) {
+  top: -5%;
+  left: 45%;
+}
+
+.circle_box > .circle_box_content {
+  width: 100%;
+  height: 500px;
+}
+
+.circle_box > .circle_box_content > .box_content {
+  border: 8px solid #b7e9b0;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 35px;
+  display: flex;
+}
+
+.circle_box > .circle_box_content > .box_content > .content {
+  text-align: center;
+}
+
+.circle_box > .circle_box_content > .box_content > .content > h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.circle_box > .circle_box_content > .box_content > .content > p {
+  color: #fffc;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.talent_source_rate_section > .source_rate_content > .rate > h2 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.talent_source_rate_section > .source_rate_content > .rate > p {
+  color: #fffc;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* [project]/components/ServicePageSections/Request&Service/style.css [app-client] (css) */
+.mission_content > h5 {
+  color: #1c1d26;
+  text-align: start;
+  background: linear-gradient(to top, #b6e9af99, #0000 40%);
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.mission_content {
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  padding: 0 80px;
+  display: flex;
+}
+
+.mission_text {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.mission_content > h2 {
+  color: #1c1d26;
+  text-transform: capitalize;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.mission_img {
+  object-fit: cover;
+  background-image: url("../media/mission.da9c4916.webp");
+  background-size: cover;
+  width: 92%;
+  height: 500px;
+}
+
+.mission_content > p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.mission_content > .button > button {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 23px 10px 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.mission_content > .button > button > span > svg {
+  transform: rotate(330deg);
+}
+
+/*# sourceMappingURL=components_ServicePageSections_559f141b._.css.map*/

@@ -1,0 +1,83 @@
+/* [project]/components/HomePageSections/comprehensive/style.css [app-client] (css) */
+.accordian_top_title > p {
+  padding: 24px 8px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.accordian_top_title > h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.accordion-button:after {
+  display: none;
+}
+
+.accordion-items {
+  background-color: #fff;
+  border-top: 1px solid #787878;
+  padding: 24px 30px;
+  transition: all .3s ease-in-out;
+}
+
+.accordion > .accordion-item {
+  background-color: #f5f9ff;
+  border-left: 0;
+  border-right: 0;
+}
+
+.accordian_header > .accordian_title > h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47.87px;
+  display: block;
+}
+
+.collapse {
+  visibility: visible;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+  background-color: #f5f9ff !important;
+}
+
+.accordian_icon .show_arrow span svg {
+  border-radius: 50%;
+  font-family: Outfit, system-ui;
+  transition: all 4s ease-in-out;
+}
+
+.accordion-item:hover .accordian_icon .show_arrow span svg {
+  background-color: #0a58ca;
+  padding: 2px;
+  font-size: 22px;
+}
+
+.accordion-body {
+  padding: 0 30px !important;
+}
+
+.accordion_body > p {
+  color: #000;
+  margin: 0;
+  padding: 0 0 30px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.open {
+  background-color: #f5f9ff;
+  padding-top: 44px;
+  padding-bottom: 8px;
+  transition: all .2s ease-in-out;
+}
+
+.accordion-button {
+  padding: 24px 30px !important;
+}
+
+/*# sourceMappingURL=components_HomePageSections_comprehensive_style_css_bad6b30c._.single.css.map*/

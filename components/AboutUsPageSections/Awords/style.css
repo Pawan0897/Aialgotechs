@@ -1,0 +1,14 @@
+.aword_box > .card >.aword_card_img > img{
+    width: 100%;
+    height: auto;
+    filter: opacity(60%);
+}
+.aword_title > h2{
+font-size: 42px;
+font-weight: 600;
+}
+.aword_title > p {
+         font-size: 14px;
+     font-weight: 300;
+     text-align: center;
+}

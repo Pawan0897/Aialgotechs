@@ -1,0 +1,880 @@
+/* [project]/components/AboutUsPageSections/banner/style.css [app-client] (css) */
+:root {
+  --transper: #edfd7233;
+  --grey: #d6d6d6 !important;
+  --font-fam: "Outfit", sans-serif !important;
+}
+
+.aboutBanner {
+  background-color: #2478ff;
+  width: 100%;
+  height: 300px;
+  padding: 80px 40px;
+}
+
+.aboutBanner > .bannerContent > h2 {
+  font-size: 56px;
+  line-height: 1.1;
+  font-family: var(--font-fam);
+  font-weight: 600;
+}
+
+.aboutBanner > .bannerContent > p {
+  font-family: var(--font-fam);
+}
+
+.bannerImage {
+  width: 100%;
+  height: 300px;
+}
+
+.bannerImage > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* [project]/components/AboutUsPageSections/AboutUsDetail/style.css [app-client] (css) */
+:root {
+  --transper: #edfd7233;
+  --grey: #d6d6d6 !important;
+  --font-fam: "Outfit", sans-serif !important;
+}
+
+.employmentsolution > .title h6 {
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+  background: linear-gradient(to top, #fbdf2d66 40%, #0000 40%);
+  margin-top: 10px;
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.employmentsolution > .title h2 {
+  color: #1c1d26;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.arrow_icon > svg {
+  color: #e0e0e0;
+  font-size: 130px;
+}
+
+.recruiter_detail .title > h3 {
+  font-size: 24px;
+  font-family: var(--font-fam);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.recruiter_detail .title > p {
+  font-family: var(--font-fam);
+}
+
+.recruiter_detail .title > button {
+  color: #fff;
+  background-color: #fbe12e;
+  border-radius: 16px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.recruiter {
+  height: 100%;
+  position: relative;
+}
+
+.recruiter > .growth_box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.placement_growth {
+  padding: 72px 42px;
+}
+
+.placement_growth > .box:before {
+  content: "";
+  font-family: YourIconFont;
+}
+
+.placement_growth > .box > h2 {
+  word-spacing: -.63px;
+  font-size: 80px;
+  font-weight: 600;
+  font-family: var(--font-fam);
+  text-align: left;
+  line-height: 1.1;
+}
+
+.placement_growth > .box > p {
+  font-size: 19px;
+  font-family: var(--font-fam);
+  word-spacing: -.01em;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+/* [project]/components/AboutUsPageSections/Services/style.css [app-client] (css) */
+:root {
+  --transper: #edfd7233;
+  --grey: #d6d6d6 !important;
+  --font-fam: "Outfit", sans-serif !important;
+}
+
+.aboutService_box {
+  border-left: 1px solid #e0e0e0;
+  padding: 32px 48px 20px 50px;
+}
+
+.aboutService_box > .box_item > .item_icon > i {
+  z-index: 1111;
+  background-color: #fbdf2d;
+  border-radius: 50%;
+  font-size: 60px;
+  position: relative;
+}
+
+.aboutService_box > .box_item {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.aboutService_box > .box_item > .box-detail > p {
+  font-family: var(--font-fam);
+  font-size: 15px;
+  line-height: inherit;
+  word-spacing: 0;
+}
+
+.aboutService_box > .box_item > .item_icon > i:before {
+  content: "";
+  z-index: -1;
+  background-color: #fbdf2d33;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* [project]/components/AboutUsPageSections/expertHire/style.css [app-client] (css) */
+:root {
+  --font-fam: "Outfit", sans-serif !important;
+  --bl: #383838 !important;
+}
+
+.recruiter-banner {
+  width: 100%;
+  position: relative;
+}
+
+.recruiter-banner:before {
+  content: "";
+  z-index: 11111;
+  background-image: linear-gradient(#00358a1a 0%, #2478ff00 100%);
+  border-radius: 30px;
+  position: absolute;
+  inset: 0;
+}
+
+.recruiter-banner > img {
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.recruiter-banner > .icon {
+  z-index: 11111;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.recruiter-banner > .icon > img {
+  transform-origin: center;
+  width: 50%;
+  animation: 5s linear infinite round;
+  overflow: hidden;
+}
+
+@keyframes round {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.recruiter_info_box {
+  background-color: #2478ff;
+  flex-direction: column;
+  gap: 15px;
+  height: 330px;
+  margin: 10px;
+  padding: 48px;
+  display: flex;
+}
+
+.recruiter_info_box > hr {
+  color: #fff;
+  width: 50px;
+}
+
+.recruiter_info_box > .title > h2 {
+  font-family: var(--font-fam);
+  font-size: 28px;
+}
+
+.recruiter_info_box > .detail > p {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+}
+
+.recruiter_info_box > .icon > svg {
+  color: #fff;
+  font-size: 75px;
+}
+
+.bg_color:nth-child(2) > .recruiter_info_box {
+  z-index: 2;
+  background-color: #fbe12e;
+  padding: 48px;
+  position: relative;
+}
+
+.bg_color:nth-child(2) > .recruiter_info_box:before {
+  content: "";
+  background-blend-mode: color-burn;
+  z-index: 1;
+  background-image: url("../media/bg-box.33df35b6.webp");
+  background-position: 100% 100%;
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+}
+
+.bg_color:nth-child(2) > .recruiter_info_box > .title > h2 {
+  font-size: 24px;
+}
+
+.recruiter_info_box > .detail > a {
+  color: var(--bl);
+  border-bottom: 1px solid var(--bl);
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--font-fam);
+  align-items: center;
+  padding: 10px;
+}
+
+.recruiter_info_box > .detail > a > span > svg {
+  margin-left: 10px;
+  font-size: 29px;
+  transform: rotate(325deg);
+}
+
+.bg_color:nth-child(3) > .recruiter_info_box {
+  background-color: #003fa3;
+}
+
+.bg_color:nth-child(3) > .recruiter_info_box > .detail > p {
+  font-size: 19px;
+}
+
+.bg_color:nth-child(3) > .recruiter_info_box > .icon > svg {
+  font-size: 50px;
+  transform: rotate(325deg);
+}
+
+.exper_section_title > p {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: var(--font-fam);
+  margin: 40px 0;
+}
+
+/* [project]/components/AboutUsPageSections/certifiedExperts/style.css [app-client] (css) */
+.exper_section_title > h5 {
+  color: #383838;
+  background: linear-gradient(to top, #fbdf2d66 40%, #0000 40%);
+  margin-top: 10px;
+  padding: 4px 8px;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.exper_section_title > h2 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.section_expert_padding {
+  background-color: #f4f4f4;
+}
+
+.exper_detail > .card {
+  background-color: #ffffff17;
+  border: none;
+}
+
+.exper_detail > .card > .img {
+  position: relative;
+  overflow: hidden;
+}
+
+.exper_detail > .card > .img:before {
+  content: "";
+  background: linear-gradient(#1c1d2600 70%, #1c1d26 100%);
+  border-radius: 20px;
+  position: absolute;
+  inset: 0;
+}
+
+.exper_detail > .card > .detail > .expert_name > h3 {
+  color: #1c1d26;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.exper_detail > .card > .detail > .expert_position > p {
+  color: #1c1d26;
+  font-weight: 300;
+}
+
+.exper_detail > .card:hover .icon_box {
+  opacity: 1;
+  display: block;
+  bottom: 2px;
+}
+
+.icon_box {
+  opacity: 0;
+  transition: all .42s ease-in-out;
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  right: 0;
+}
+
+.expert_icon_wrapper {
+  background-color: #fbe12e;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  list-style: none;
+  display: inline-flex;
+}
+
+.expert_icon_wrapper .icon {
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: all .2s cubic-bezier(.68, -.55, .265, 1.55);
+  display: flex;
+  position: relative;
+}
+
+.expert_icon_wrapper .tooltip {
+  color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-size: 14px;
+  transition: all .3s cubic-bezier(.68, -.55, .265, 1.55);
+  position: absolute;
+  top: 0;
+  box-shadow: 0 10px 10px #0000001a;
+}
+
+.expert_icon_wrapper .tooltip:before {
+  content: "";
+  background: #fff;
+  width: 8px;
+  height: 8px;
+  transition: all .3s cubic-bezier(.68, -.55, .265, 1.55);
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%)rotate(45deg);
+}
+
+.expert_icon_wrapper .icon:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  top: -40px;
+}
+
+.expert_icon_wrapper .icon:hover span, .expert_icon_wrapper .icon:hover .tooltip {
+  text-shadow: 0 -1px #0000001a;
+}
+
+.expert_icon_wrapper .facebook:hover .tooltip, .expert_icon_wrapper .facebook:hover .tooltip:before, .expert_icon_wrapper .twitter:hover .tooltip, .expert_icon_wrapper .twitter:hover .tooltip:before, .expert_icon_wrapper .instagram:hover .tooltip, .expert_icon_wrapper .instagram:hover .tooltip:before {
+  color: #fff;
+  background: #383838;
+}
+
+/* [project]/components/AboutUsPageSections/futureWithUs/style.css [app-client] (css) */
+.right_block {
+  padding: 0 56px;
+}
+
+.right_block > .title > h5 {
+  color: #383838;
+  background: linear-gradient(to top, #fbdf2d66 40%, #0000 40%);
+  margin-top: 10px;
+  padding: 4px 8px;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.right_block > .title > h2 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.right_block > .title > p {
+  font-weight: 300;
+}
+
+.toggle_button > a {
+  color: #383838;
+  background-color: #f4f4f4;
+  border: 0;
+  border-top: 3px solid #2478ff;
+  border-radius: 12px;
+  margin-right: 5px;
+  padding: 20px 67px;
+  font-family: Outfit, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.toggle_button > a:hover {
+  color: #383838;
+  background-color: #fff;
+}
+
+.toggle_button > button {
+  color: #383838;
+  background-color: #f4f4f4;
+  border: 0;
+  border-top: 3px solid #2478ff;
+  border-radius: 12px;
+  margin-right: 5px;
+  padding: 20px 67px;
+  font-family: Outfit, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.toggle_button > button:hover {
+  color: #383838;
+  background-color: #fff;
+}
+
+#example-fade-text > p {
+  padding-top: 30px;
+  font-weight: 300;
+}
+
+.accordion-body > p {
+  visibility: visible;
+}
+
+/* [project]/components/AboutUsPageSections/MakeItHappen/style.css [app-client] (css) */
+.makeithappen_block {
+  background-color: #003fa3;
+  padding: 72px;
+}
+
+.makeit-wrapper {
+  align-items: stretch;
+  display: flex;
+}
+
+.sticky_block {
+  height: fit-content;
+  margin: 0 20px;
+  position: sticky;
+  top: 80px;
+}
+
+.make_it_happen_leftblock {
+  background-color: #003fa3;
+  padding: 72px;
+}
+
+.sticky_block > .make_it_happen_leftblock > .left_block_content h2 {
+  margin-bottom: 45px;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.sticky_block > .make_it_happen_leftblock > .left_block_content h5 {
+  color: #b7e9b0;
+  background: linear-gradient(to top, #fbdf2d66 40%, #0000 40%);
+  margin-top: 10px;
+  margin-bottom: 24px;
+  font-size: 19px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.sticky_block > .make_it_happen_leftblock > .left_block_content > .button > a {
+  color: #fff;
+  background-color: #1c1d26;
+  align-items: center;
+  padding: 22px 35px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+
+.makeithappen_block .second_block > .card {
+  padding: 40px;
+}
+
+.makeithappen_block .second_block > .card > .card_title > .icon > p {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.makeithappen_block .second_block > .card > .card_title > .icon > span > svg {
+  font-size: 20px;
+}
+
+.makeithappen_block .second_block > .card > .card_body > .user_icon > i {
+  z-index: 1111;
+  background-color: #fbdf2d;
+  border-radius: 50%;
+  font-size: 64px;
+  position: relative;
+}
+
+.makeithappen_block .second_block > .card > .card_body {
+  flex-direction: column;
+  gap: 30px;
+  display: flex;
+}
+
+.makeithappen_block .second_block > .card > .card_body > h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.makeithappen_block .second_block > .card > .card_body > p {
+  font-weight: 300;
+}
+
+.makeithappen_block .second_block > .card > .card_body > .user_icon > i:before {
+  content: "";
+  z-index: -1;
+  background-color: #fbdf2d33;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* [project]/components/AboutUsPageSections/ProgressNumber/style.css [app-client] (css) */
+.progress_title > h5 {
+  color: #383838;
+  text-transform: capitalize;
+  background: linear-gradient(to top, #fbdf2d66 40%, #0000 40%);
+  margin-top: 10px;
+  margin-bottom: 24px;
+  font-size: 19px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.progress_title {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.progress_title > h2 {
+  color: #1c1d26;
+  text-transform: capitalize;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.progress_number_block {
+  margin: 0 20px;
+}
+
+.progress_number_block > .progress_number {
+  background-color: #b6e9af4d;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 40px 20px;
+  display: flex;
+}
+
+.progress_number_block > .progress_number > .title > h5 {
+  color: #1c1d26;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.progress_number_block > .progress_number > svg {
+  width: 220px;
+  height: 220px;
+  margin-bottom: 40px;
+}
+
+.progress_number_block > .progress_detail {
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: -20px;
+  padding: 40px 48px;
+}
+
+.progress_number_block > .progress_detail > p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#purple_color {
+  background: #9b3dff26;
+}
+
+#yellow_color {
+  background: #fbdf2d33;
+}
+
+/* [project]/components/AboutUsPageSections/Awords/style.css [app-client] (css) */
+.aword_box > .card > .aword_card_img > img {
+  filter: opacity(60%);
+  width: 100%;
+  height: auto;
+}
+
+.aword_title > h2 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.aword_title > p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* [project]/components/AboutUsPageSections/Responsive/style.css [app-client] (css) */
+@media only screen and (max-width: 768px) {
+  .md-padding {
+    padding: 30px !important;
+  }
+
+  .pbl {
+    padding: 0 !important;
+  }
+
+  .right_block {
+    margin-top: 35px;
+    padding: 0;
+  }
+
+  .toggle_button > a {
+    text-align: center;
+    display: block;
+  }
+
+  .sticky_block {
+    position: unset;
+    margin: 0;
+  }
+
+  .makeithappen_block, .progress_number_block {
+    margin-top: 50px;
+  }
+
+  .aword_box > .card > .aword_card_img > img {
+    width: 45%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .employmentsolution > .title h2 {
+    font-size: 30px;
+  }
+
+  .employmentsolution > .title h6 {
+    font-size: 13px;
+  }
+
+  .recruiter-banner {
+    width: 100%;
+    height: 280px;
+  }
+
+  .recruiter-banner > img {
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+  }
+
+  .bg_color {
+    padding: 0 !important;
+  }
+
+  .exper_section_title > h5 {
+    margin: 17px 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .exper_section_title > h2 {
+    font-size: 31px;
+  }
+
+  .exper_detail {
+    margin-bottom: 60px;
+  }
+
+  .future_section > .left_block > .block_img > img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+  }
+
+  .right_block > .title > h2, .sticky_block > .make_it_happen_leftblock > .left_block_content h2, .aword_title > h2 {
+    font-size: 31px;
+  }
+
+  .make_it_happen_leftblock, .makeithappen_block {
+    padding: 43px 32px;
+  }
+
+  .progress_title > h2 {
+    font-size: 31px;
+  }
+
+  .md-padding {
+    padding: 25px 10px !important;
+  }
+
+  .aword_box > .card > .aword_card_img > img {
+    width: 65%;
+  }
+
+  .recruiter_info_box {
+    gap: 0;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .sticky_block > .make_it_happen_leftblock > .left_block_content > .button > a {
+    padding: 18px 24px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .aboutService_box {
+    padding: 32px 40px 20px 30px;
+  }
+
+  .exper_section_title > h5 {
+    font-size: 17px;
+  }
+
+  .sticky_block > .make_it_happen_leftblock > .left_block_content > .button > a {
+    padding: 18px 17px;
+    font-size: 17px;
+  }
+
+  .progress_title > h2 {
+    font-size: 26px;
+  }
+
+  .progress_number_block {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .aboutBanner > .bannerContent > h2 {
+    font-size: 50px;
+  }
+
+  .recruiter_info_box > .title > h2 {
+    font-size: 25px;
+  }
+
+  .recruiter_info_box > .icon > svg {
+    font-size: 60px;
+  }
+
+  .recruiter_info_box > .detail > p {
+    font-size: 14px;
+  }
+
+  .recruiter_info_box {
+    padding: 30px !important;
+  }
+
+  .sticky_block > .make_it_happen_leftblock > .left_block_content h2 {
+    font-size: 29px;
+  }
+
+  .bg_color:nth-child(2) > .recruiter_info_box > .title > h2 {
+    font-size: 22px;
+  }
+
+  .bg_color:nth-child(3) > .recruiter_info_box > .detail > p {
+    font-size: 17px;
+  }
+
+  .bg_color:nth-child(3) > .recruiter_info_box > .icon > svg {
+    font-size: 45px;
+    transform: rotate(325deg);
+  }
+
+  .exper_section_title > h5 {
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=components_AboutUsPageSections_a2f45305._.css.map*/

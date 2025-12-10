@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Admin/Desktop/aialgotechweb/frontend/app/services/page.tsx"],"sourcesContent":["\r\nfunction ServicesPage() {\r\n    return (\r\n        <>\r\n            <Header />\r\n            <ServiceBanner />\r\n            <RequirementSection />\r\n            <StaffingSection />\r\n            <Card />\r\n            <Page />\r\n            <MissionPage />\r\n            <ContactBlock />\r\n            <Footer />\r\n\r\n\r\n\r\n        </>\r\n    )\r\n}\r\n\r\nexport default ServicesPage"],"names":[],"mappings":";;;;;;AACA,SAAS;IACL,qBACI;;0BACI,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;;;AAMb;uCAEe"}}]
+}

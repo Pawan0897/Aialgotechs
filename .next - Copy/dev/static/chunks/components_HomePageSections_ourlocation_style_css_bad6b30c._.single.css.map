@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/HomePageSections/ourlocation/style.css"],"sourcesContent":["\r\n:root{\r\n    --font-fm :\"Outfit\", sans-serif !important;\r\n}\r\nh2,h3,p{\r\n    font-family :var(--font-fm)\r\n}\r\n.location{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 15px;\r\n}\r\n.location_title > h3{\r\ncolor: #fff;\r\n    font-size: 16px;\r\n    font-weight: 400;\r\n}\r\n.location  .location_icon  svg{\r\ncolor:#fff;\r\n}\r\n.location > .location_address > p {\r\ncolor: #fff;\r\n    font-weight: 400;\r\n    line-height: 28px;\r\n    \r\n    letter-spacing: -.46px;\r\n}"],"names":[],"mappings":"AACA;;;;AAGA;;;;AAGA;;;;;;AAKA;;;;;;AAKA;;;;AAGA"}}]
+}

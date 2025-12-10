@@ -1,0 +1,63 @@
+.progress_title > h5{
+      display: inline-block;
+    margin-bottom: 24px;
+    background: linear-gradient(to top, hsla(52, 96%, 58%, calc(100% - 60%))  40%, transparent 40%);
+    color: #383838;
+    font-size: 19px;  text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.progress_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.progress_title > h2{
+    font-size: 42px;
+    line-height: 1.1;
+    color: #1c1d26;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.progress_number_block{
+    margin:0px 20px;
+}
+
+.progress_number_block > .progress_number{
+    padding:40px 40px 20px 40px;
+    background-color: hsla(113, 56%, 80%,calc(100% - 70%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.progress_number_block > .progress_number > .title > h5{
+    color:#1c1d26;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.progress_number_block > .progress_number > svg{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 40px;
+}
+.progress_number_block > .progress_detail {
+    padding:40px 48px;
+    margin-top: -20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.progress_number_block > .progress_detail > p{
+     font-size: 13px;
+     font-weight: 300;
+     text-align: center;
+}
+#purple_color{
+background: hsla(calc(217 + 52),calc(100% + 5%),calc(57% + 5%),calc(100% - 85%));
+}
+#yellow_color{
+background: hsla(52, 96%, 58%, calc(100% - 80%)) ;
+}
+
+

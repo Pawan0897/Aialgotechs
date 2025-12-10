@@ -1,0 +1,185 @@
+.cards {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(0px + 100vh);
+  margin-bottom: 90px;
+}
+.custom-card {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 800px;
+  background-image: url("./img/executive-search.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 50px;
+  object-fit: cover;
+  background-position: center;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+.card1 {
+}
+.card2 {
+  top: 0px;
+}
+.card3 {
+  top: 0px;
+}
+.card4 {
+  top: 0px;
+}
+.opacity {
+  -moz-transition: 0.44s ease;
+  -ms-transition: 0.44s ease;
+  -o-transition: 0.44s ease;
+  transition: 0.44s ease;
+  -webkit-transition: 0.44s ease;
+  opacity: 0.6;
+}
+.scale {
+  moz-transition: 0.44s ease;
+  -ms-transition: 0.44s ease;
+  -o-transition: 0.44s ease;
+  transition: 0.44s ease;
+  -webkit-transition: 0.44s ease;
+  width: 95%;
+}
+.stack_img > img {
+  width: 100%;
+  height: auto;
+}
+.scrollStack_content {
+  background-color: #f4f4f4;
+  height: 800px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 100px;
+}
+.scrollStack_content > .content > .stack_icon > svg {
+  color: #d9d9d9;
+  font-size: 170px;
+  transform: rotate(311deg);
+}
+.scrollStack_content > .content > .stack_title > h5 {
+  display: inline-block;
+  padding: 4px 8px;
+  background: linear-gradient(
+    to top,
+    hsla(113, 56%, 80%, calc(100% - 40%)),
+    transparent 40%
+  );
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+  margin-top: 10px;
+}
+.scrollStack_content > .content > .stack_title > h2 {
+  font-size: 42px;
+  line-height: 1.1;
+  color: #1c1d26;
+  font-weight: 600;
+}
+.scrollStack_content > .content > .stack_title > p {
+  font-weight: 300;
+  font-size: 15px;
+
+  color: #1c1d26;
+}
+.scrollStack_content > .content > .stack_title > .button > a {
+  display: flex;
+  align-items: center;
+  background-color: #1c1d26;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-decoration: none;
+
+  color: #ffff;
+  font-weight: 600;
+}
+.scrollStack_content > .content > .stack_title > .button > a > p {
+  margin: 0;
+}
+.scrollStack_content > .content > .stack_title > .button > a > span > svg {
+  transform: rotate(330deg);
+  font-size: 30px;
+}
+.scrollStack_content
+  > .content
+  > .stack_title
+  > .button
+  > a
+  > span:nth-child(2)
+  > svg {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+
+/* ********************************************************************************  small screen show block  ******************************************* */
+.md-scroll-details{
+  margin:30px 10px;
+}
+
+.md-scroll-details > .title > h5{
+   display: inline-block;
+  padding: 4px 8px;
+  background: linear-gradient(
+    to top,
+    hsla(113, 56%, 80%, calc(100% - 40%)),
+    transparent 40%
+  );
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+  margin-top: 10px;
+}
+.md-scroll-details > .title > h2{
+ font-size: 42px;
+  line-height: 1.1;
+  color: #1c1d26;
+  font-weight: 600;
+}
+
+.md-scroll-details > .title
+{
+    font-weight: 300;
+  font-size: 15px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+  color: #1c1d26;
+}
+
+.md-scroll-details > .button > a{
+    display: flex;
+  align-items: center;
+  background-color: #1c1d26;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-decoration: none;
+
+  color: #ffff;
+  font-weight: 600;
+}
+.bg-backgorund{
+  position: relative;
+}
+.bg-backgorund::before{
+  content:"";
+  left: -2%;
+  top:0;
+  bottom: 0;
+  position: absolute;
+  right: 50%;
+  background-color: #f4f4f4;
+  z-index: -1;
+}

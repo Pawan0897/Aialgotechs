@@ -1,0 +1,67 @@
+.right_block {
+  padding: 0px 56px;
+}
+.right_block > .title > h5 {
+  display: inline-block;
+  padding: 4px 8px;
+  background: linear-gradient(
+    to top,
+    hsla(52, 96%, 58%, calc(100% - 60%)) 40%,
+    transparent 40%
+  );
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+
+  margin-top: 10px;
+}
+.right_block > .title > h2 {
+  font-weight: 600;
+  font-size: 42px;
+}
+.right_block > .title > p {
+  font-weight: 300;
+}
+.toggle_button > a {
+  padding: 20px 67px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #383838;
+  font-family: "Outfit", sans-serif;
+  background-color: #f4f4f4;
+  border: 0;
+  margin-right: 5px;
+  border-top: 3px solid #2478ff;
+  border-radius: 12px;
+}
+.toggle_button > a:hover {
+  background-color: #ffff;
+  color: #383838;
+}
+
+.toggle_button > button {
+  padding: 20px 67px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #383838;
+  font-family: "Outfit", sans-serif;
+  background-color: #f4f4f4;
+  border: 0;
+  margin-right: 5px;
+  border-top: 3px solid #2478ff;
+  border-radius: 12px;
+}
+.toggle_button > button:hover {
+  background-color: #ffff;
+  color: #383838;
+}
+#example-fade-text > p {
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+/* ********** accordian show  */
+.accordion-body > p {
+  visibility: visible;
+}

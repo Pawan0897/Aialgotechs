@@ -1,0 +1,99 @@
+.makeithappen_block {
+  padding: 72px 72px;
+  background-color: hsla(217, 100%, calc(57% - 25%), 100%);
+ 
+}
+.makeit-wrapper{
+display: flex;
+  align-items: stretch;
+  
+}
+.sticky_block {
+  position: relative;
+   height: fit-content;
+   position: sticky;
+  top: 80px;
+   margin:0px 20px;
+}
+.make_it_happen_leftblock {
+  padding: 72px 72px;
+ 
+  background-color: hsla(217, 100%, calc(57% - 25%), 100%);
+}
+.sticky_block > .make_it_happen_leftblock  > .left_block_content h2{
+    font-size: 42px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.sticky_block > .make_it_happen_leftblock > .left_block_content h5{
+     display: inline-block;
+    margin-bottom: 24px;
+    background: linear-gradient(to top, hsla(52, 96%, 58%, calc(100% - 60%))  40%, transparent 40%);
+    color: #b7e9b0;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.sticky_block > .make_it_happen_leftblock > .left_block_content > .button > a{
+    display: flex;
+    align-items: center;
+    background-color: #1c1d26;
+    padding: 22px 35px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 600;
+}
+/* *************************************** */
+
+
+.makeithappen_block .second_block > .card {
+  padding: 40px 40px;
+}
+.makeithappen_block .second_block > .card > .card_title > .icon > p {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.makeithappen_block .second_block > .card > .card_title > .icon > span > svg {
+  font-size: 20px;
+}
+
+.makeithappen_block .second_block > .card > .card_body > .user_icon > i {
+  font-size: 64px;
+  background-color: #fbdf2d;
+  position: relative;
+  z-index: 1111;
+  border-radius: 50%;
+}
+.makeithappen_block .second_block > .card > .card_body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.makeithappen_block .second_block > .card > .card_body > h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.makeithappen_block .second_block > .card > .card_body > p {
+  font-weight: 300;
+}
+.makeithappen_block
+  .second_block
+  > .card
+  > .card_body
+  > .user_icon
+  > i::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 75px;
+  height: 75px;
+  bottom: 0;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: hsla(52, 96%, 58%, calc(100% - 80%));
+}

@@ -1,0 +1,175 @@
+/* [project]/components/AboutUsPageSections/Responsive/style.css [app-client] (css) */
+@media only screen and (max-width: 768px) {
+  .md-padding {
+    padding: 30px !important;
+  }
+
+  .right_block {
+    margin-top: 35px;
+    padding: 0;
+  }
+
+  .toggle_button > a {
+    text-align: center;
+    display: block;
+  }
+
+  .sticky_block {
+    position: unset;
+    margin: 0;
+  }
+
+  .makeithappen_block, .progress_number_block {
+    margin-top: 50px;
+  }
+
+  .aword_box > .card > .aword_card_img > img {
+    width: 45%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .employmentsolution > .title h2 {
+    font-size: 30px;
+  }
+
+  .employmentsolution > .title h6 {
+    font-size: 13px;
+  }
+
+  .recruiter-banner {
+    width: 100%;
+    height: 280px;
+  }
+
+  .recruiter-banner > img {
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+  }
+
+  .bg_color {
+    padding: 0 !important;
+  }
+
+  .exper_section_title > h5 {
+    margin: 17px 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .exper_section_title > h2 {
+    font-size: 31px;
+  }
+
+  .exper_detail {
+    margin-bottom: 60px;
+  }
+
+  .future_section > .left_block > .block_img > img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+  }
+
+  .right_block > .title > h2, .sticky_block > .make_it_happen_leftblock > .left_block_content h2, .aword_title > h2 {
+    font-size: 31px;
+  }
+
+  .make_it_happen_leftblock, .makeithappen_block {
+    padding: 43px 32px;
+  }
+
+  .progress_title > h2 {
+    font-size: 31px;
+  }
+
+  .md-padding {
+    padding: 25px 10px !important;
+  }
+
+  .aword_box > .card > .aword_card_img > img {
+    width: 65%;
+  }
+
+  .recruiter_info_box {
+    gap: 0;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .sticky_block > .make_it_happen_leftblock > .left_block_content > .button > a {
+    padding: 18px 24px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .aboutService_box {
+    padding: 32px 40px 20px 30px;
+  }
+
+  .exper_section_title > h5 {
+    font-size: 17px;
+  }
+
+  .sticky_block > .make_it_happen_leftblock > .left_block_content > .button > a {
+    padding: 18px 17px;
+    font-size: 17px;
+  }
+
+  .progress_title > h2 {
+    font-size: 26px;
+  }
+
+  .progress_number_block {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .aboutBanner > .bannerContent > h2 {
+    font-size: 50px;
+  }
+
+  .recruiter_info_box > .title > h2 {
+    font-size: 25px;
+  }
+
+  .recruiter_info_box > .icon > svg {
+    font-size: 60px;
+  }
+
+  .recruiter_info_box > .detail > p {
+    font-size: 14px;
+  }
+
+  .recruiter_info_box {
+    padding: 30px !important;
+  }
+
+  .sticky_block > .make_it_happen_leftblock > .left_block_content h2 {
+    font-size: 29px;
+  }
+
+  .bg_color:nth-child(2) > .recruiter_info_box > .title > h2 {
+    font-size: 22px;
+  }
+
+  .bg_color:nth-child(3) > .recruiter_info_box > .detail > p {
+    font-size: 17px;
+  }
+
+  .bg_color:nth-child(3) > .recruiter_info_box > .icon > svg {
+    font-size: 45px;
+    transform: rotate(325deg);
+  }
+
+  .exper_section_title > h5 {
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=components_AboutUsPageSections_Responsive_style_2b8b8635.css.map*/

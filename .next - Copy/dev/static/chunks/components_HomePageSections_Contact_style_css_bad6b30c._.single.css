@@ -1,0 +1,82 @@
+/* [project]/components/HomePageSections/Contact/style.css [app-client] (css) */
+.section_ninth_contact_form {
+  background-size: cover;
+  padding: 72px;
+}
+
+.contact_side_bg {
+  width: 88%;
+  height: 100%;
+}
+
+.contact_side_bg > img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact_form_bg > .contact_title > h3 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.contact_form_bg > .contact_title > p {
+  color: #fffc;
+  font-size: 19px;
+  line-height: 1.7;
+}
+
+.contact_input {
+  height: 70px;
+  padding: 0 20px;
+  color: #212529 !important;
+  font-size: 15px !important;
+}
+
+.contact_input::placeholder {
+  font-family: Outfit, sans-serif;
+  color: #b8b8b8 !important;
+  font-size: 17px !important;
+}
+
+.textarea_input {
+  color: #212529 !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.section_fourth_button > .contact_button {
+  justify-content: center;
+  width: 100%;
+  padding: 20px 36px;
+  display: flex;
+}
+
+.section_fourth_button > .contact_button:hover {
+  background-color: #2478ff;
+}
+
+.section_fourth_button > .contact_button:hover button {
+  color: #fff;
+}
+
+.section_fourth_button > .contact_button > button {
+  text-transform: uppercase;
+  color: #1c1d26;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+}
+
+.section_fourth_button > .contact_button > button > span > svg {
+  margin-left: 10px;
+  font-size: 27px;
+  font-weight: 700;
+  transform: rotate(330deg);
+}
+
+/*# sourceMappingURL=components_HomePageSections_Contact_style_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,157 @@
+/* [project]/components/ServicePageSections/TalentSourcing/style.css [app-client] (css) */
+.talentSource_title > h5 {
+  color: #b7e9b0;
+  background: linear-gradient(to top, #b6e9af99, #0000 40%);
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.talentSource_title {
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.talentSource_title > h2 {
+  color: #f7f7f7;
+  text-transform: capitalize;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.talentSource_title > p {
+  columns: 1;
+  color: #fffc;
+  font-size: 24px;
+}
+
+.talent_source_bg {
+  background-color: #00358a;
+  position: relative;
+}
+
+.talent_source_box {
+  justify-content: center;
+  align-items: center;
+  padding: 0 95px 95px;
+}
+
+.top_header_bg {
+  justify-content: end;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.circle_section {
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+}
+
+.circle_box {
+  border: 2px dotted #f7f7f7;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.circle_box > .icon {
+  background-color: #00358a;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+}
+
+.circle_box > .icon > svg {
+  color: #f7f7f7;
+  font-size: 26px;
+}
+
+.circle_box > .icon:first-child {
+  top: 25%;
+  left: 0;
+}
+
+.circle_box > .icon:nth-child(2) {
+  top: 25%;
+  right: 0;
+}
+
+.circle_box > .icon:nth-child(3) {
+  top: 68%;
+  right: 0;
+}
+
+.circle_box > .icon:nth-child(4) {
+  top: 68%;
+  left: 0;
+}
+
+.circle_box > .icon:nth-child(5) {
+  bottom: -5%;
+  left: 45%;
+}
+
+.circle_box > .icon:nth-child(6) {
+  top: -5%;
+  left: 45%;
+}
+
+.circle_box > .circle_box_content {
+  width: 100%;
+  height: 500px;
+}
+
+.circle_box > .circle_box_content > .box_content {
+  border: 8px solid #b7e9b0;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 35px;
+  display: flex;
+}
+
+.circle_box > .circle_box_content > .box_content > .content {
+  text-align: center;
+}
+
+.circle_box > .circle_box_content > .box_content > .content > h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.circle_box > .circle_box_content > .box_content > .content > p {
+  color: #fffc;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.talent_source_rate_section > .source_rate_content > .rate > h2 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.talent_source_rate_section > .source_rate_content > .rate > p {
+  color: #fffc;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/*# sourceMappingURL=components_ServicePageSections_TalentSourcing_style_css_bad6b30c._.single.css.map*/

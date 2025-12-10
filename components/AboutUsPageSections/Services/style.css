@@ -1,0 +1,41 @@
+:root {
+  --grey: #d6d6d6 !important;
+  --transper: hsla(67, 97%, 72%, 0.2);
+  --font-fam: "Outfit", sans-serif !important;
+}
+
+.aboutService_box {
+  padding: 32px 48px 20px 50px;
+  border-left: 1px solid #e0e0e0;
+}
+
+.aboutService_box > .box_item > .item_icon > i {
+  font-size: 60px;
+  background-color: #fbdf2d;
+  position: relative;
+  z-index: 1111;
+  border-radius: 50%;
+}
+.aboutService_box > .box_item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.aboutService_box > .box_item > .box-detail > p {
+  font-family: var(--font-fam);
+  font-size: 15px;
+  line-height: inherit;
+  word-spacing: 0px;
+}
+.aboutService_box > .box_item > .item_icon > i::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 75px;
+  height: 75px;
+  bottom: 0;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: hsla(52, 96%, 58%, calc(100% - 80%));
+}

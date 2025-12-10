@@ -1,0 +1,38 @@
+.staffing_box > .staffing_detail{
+    padding:20px 20px;
+}
+.staffing_box{
+    margin:0px 15px;
+}
+.staffing_box > .staffing_detail .title > h5{
+    line-height: 1.4;
+font-size: 24px;
+font-weight: 600;
+}
+
+.staffing_box > .staffing_detail .title{
+    padding:10px 0px;
+}
+.staffing_box > .staffing_detail .title > .icon > svg{
+    font-size: 50px;
+    line-height: 1.4;
+    color:#2478ff;
+    margin-right:24px;
+}
+.staffing_box > .staffing_detail > .show_text > p{
+    font-weight: 300;
+    font-size: 13px;
+    color:#1c1d26;
+    padding-bottom: 0;
+   opacity: 0;
+   margin-top:-10px;
+    transform: translateY(-10px);
+    transition: .30s ease-in-out;
+}
+
+.staffing_box:hover .staffing_detail > .show_text > p{
+    transform: translateY(0px);
+  padding-bottom: 10px;
+   margin: 0;
+   opacity: 1;
+}

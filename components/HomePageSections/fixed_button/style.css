@@ -1,0 +1,117 @@
+.scrollToTopBtn {
+	background-color: #3074dd;
+	border: none;
+	border-radius: 50%;
+	color: white;
+	cursor: pointer;
+	font-size: 30px;
+	line-height: 48px;
+
+    padding: 5px;
+	position: fixed;
+	right: 5%;
+    bottom: 7%;
+	z-index: 100;
+    	opacity: 0;
+
+	transform: translateX(50px) translateY(50px);
+	
+	transition: all 0.5s ease;
+	 -webkit-animation: pulse 1.5s infinite;
+}
+
+.showBtn {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+.scrollToTopBtn {
+  background-color: #3074dd;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 48px;
+  padding: 5px;
+  position: fixed;
+  right: 5%;
+  bottom: 7%;
+  z-index: 100;
+  opacity: 0;
+  transform: translateX(50px) translateY(50px);
+  transition: all 0.5s ease;
+
+  animation: pulse 1.5s infinite; /* use standard CSS animation */
+}
+
+.scrollToTopBtn:hover {
+  animation: none;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+.scrollToTopBtn {
+  position: fixed;
+  right: 5%;
+  bottom: 7%;
+  z-index: 100;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2499ff, #076aff); /* gradient for modern look */
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease;
+
+  /* Pulse glow effect */
+  box-shadow: 0 0 15px linear-gradient(135deg, #579aff, #2362eb);;
+  animation: pulseAttractive 2s infinite;
+}
+
+/* Show button */
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover state: intensify glow and scale */
+.scrollToTopBtn:hover {
+  animation: none;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(79, 172, 254, 0.8), 0 0 40px rgba(0, 242, 254, 0.6);
+}
+
+/* Smooth pulse glow animation */
+@keyframes pulseAttractive {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(79, 172, 254, 0.6), 0 0 20px rgba(0, 242, 254, 0.4);
+  }
+  50% {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(103, 184, 255, 0.7), 0 0 40px rgba(0, 242, 254, 0.5);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(79, 172, 254, 0.6), 0 0 20px rgba(0, 242, 254, 0.4);
+  }
+}

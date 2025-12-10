@@ -1,0 +1,68 @@
+.question_section .asked_question_title {
+  text-align: center;
+}
+
+.question_section > .asked_question_title h5 {
+  display: inline-block;
+  text-transform: capitalize;
+  background: linear-gradient(
+    to top,
+    hsla(52, 96%, 58%, calc(100% - 60%)),
+    transparent 40%
+  );
+  color: #383838;
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: start;
+}
+
+.question_section > .asked_question_title h2 {
+  font-size: 42px;
+  line-height: 1.1;
+  color: #383838;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.question_items {
+  margin: 10px 100px;
+  text-align: left;
+}
+.question_items > .questions > ul > li {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.question_items > .questions > ul > li > a {
+  font-size: 22px;
+  color: #1c1d26;
+  line-height: 1.1;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-decoration: none;
+  padding:10px 0px ;
+  margin-left:18px;
+  /* text-underline-offset: 5px; */
+}
+.question_items > .questions > ul > li > span {
+  background-color: hsla(52, 96%, 58%, calc(100% - 80%));
+  
+}
+.question_items > .questions > ul > li > span > svg {
+
+  color: #383838;
+  padding: 4.5px;
+  font-size: 24px;
+  transform: rotate(330deg);
+}
+.question_items > .questions > ul > li:hover  a{
+    color: #2478ff;
+    text-decoration:underline;
+}
+.question_items > .questions > ul > li:hover   span {
+    background-color: #2478ff;
+}
+.question_items > .questions > ul > li:hover   span  svg {
+    color: #383838;
+}
