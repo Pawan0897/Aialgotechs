@@ -15,8 +15,6 @@ import ArrrowButton from '../components/HomePageSections/fixed_button/ArrrowButt
 import SectionSixth from "../components/HomePageSections/SectionSixth"
 
 import SectionFifth from '../components/HomePageSections/SectionFifth'
-import ShiftingDropDown from "../components/HomePageSections/ShiftingDropDown"
-import StaggeredDropDown from "../components/HomePageSections/DropdownTwo/StaggeredDropDown"
 /**************************************************************************************************************************** */
 interface ShinyTextProps {
   text: string,
@@ -104,8 +102,6 @@ export default function Home() {
       <ArrrowButton />
       <SectionEight />
       <OurLocation />
-      <ShiftingDropDown />
-      <StaggeredDropDown />
       <Footer />
     </>
   );

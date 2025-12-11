@@ -246,7 +246,7 @@
     > .swiper-slide
     > .card
     > .blog_body {
-    padding-top: 1px;
+    padding-top: 1px !important;
   }
 
   .blog_slider
@@ -550,7 +550,7 @@
   }
   /* ************************* blog section >>>>>>>>>>>>>>>>>>>>>> */
   .blog_slider > .swiper > .swiper-wrapper > .swiper-slide > .card {
-    min-height: 365px;
+    min-height: 365px !important;
   }
   .blog_slider
     > .swiper
@@ -565,7 +565,7 @@
     padding: 50px 20px;
   }
   #blog_swiper > .swiper-wrapper {
-    min-height: 430px;
+    min-height: 430px !important;
   }
   .blog_slider > .blog_title > p {
     letter-spacing: 2px;
@@ -678,7 +678,7 @@
     min-height: auto;
   }
   .blog_slider > .swiper > .swiper-wrapper > .swiper-slide > .card {
-    min-height: 330px;
+    min-height: 330px !important;
   }
   .blog_slider
     > .swiper
@@ -690,7 +690,7 @@
     font-size: 25px !important;
   }
   #blog_swiper > .swiper-wrapper {
-    min-height: 400px;
+    min-height: 400px !important;
   }
   .sectionThree > .section_three_bg {
     top: 35% !important;
@@ -761,7 +761,7 @@
     font-size: 21px !important;
   }
   .blog_slider > .swiper > .swiper-wrapper > .swiper-slide > .card {
-    min-height: 315px;
+    min-height: 315px !important;
   }
   .blog_slider
     > .swiper
@@ -828,16 +828,16 @@
     > .blog_body
     > h2 {
     font-size: 20px !important;
-    padding: 0;
+    padding: 0 !important;
   }
   .blog_slider > .swiper > .swiper-wrapper > .swiper-slide > .card {
-    min-height: 260px;
+    min-height: 260px !important;
   }
   .blog_button {
     margin-bottom: 0px;
   }
   #blog_swiper > .swiper-wrapper {
-    min-height: 330px;
+    min-height: 330px !important;
   }
   .prev {
     right: 20%;
