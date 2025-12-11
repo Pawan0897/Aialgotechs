@@ -1,12 +1,6 @@
-import React from 'react'
+
 import Marquee from "react-fast-marquee";
-import frame1 from "../../public../../public/img/frames/frame1.png"
-import frame2 from "../../public/img/frames/frame2.png"
-import frame3 from "../../public/img/frames/frame3.png"
-import frame4 from "../../public/img/frames/frame4.png"
-import frame5 from "../../public/img/frames/frame5.png"
-import frame6 from "../../public/img/frames/frame6.png"
-import frame7 from "../../public/img/frames/frame7.png";
+
 export default function SectionEight() {
     return (
         <>
@@ -27,39 +21,39 @@ export default function SectionEight() {
                                 <Marquee pauseOnHover   >
                                     <ul className='flex gap-4' id='move'>
                                         <li>
-                                            <img src={frame1} alt="" />
+                                            <img src="/img/frames/frame1.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame2} alt="" />
+                                            <img src="/img/frames/frame2.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame3} alt="" />
+                                            <img src="/img/frames/frame3.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame4} alt="" />
+                                            <img src="/img/frames/frame4.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame5} alt="" />
+                                            <img src="/img/frames/frame5.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame6} alt="" />
+                                            <img src="/img/frames/frame6.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame7} alt="" />
+                                            <img src="/img/frames/frame7.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame2} alt="" />
+                                            <img src="/img/frames/frame1.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame3} alt="" />
+                                            <img src="/img/frames/frame2.png" alt="" />
                                         </li>
                                         {/* **** */}
 
@@ -71,39 +65,39 @@ export default function SectionEight() {
                                 <Marquee direction='right' pauseOnHover>
                                     <ul className='flex gap-4' id='move'>
                                         <li>
-                                            <img src={frame1} alt="" />
+                                            <img src="/img/frames/frame1.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame2} alt="" />
+                                            <img src="/img/frames/frame2.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame3} alt="" />
+                                            <img src="/img/frames/frame3.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame4} alt="" />
+                                            <img src="/img/frames/frame4.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame5} alt="" />
+                                            <img src="/img/frames/frame5.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame6} alt="" />
+                                            <img src="/img/frames/frame6.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame7} alt="" />
+                                            <img src="/img/frames/frame7.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame2} alt="" />
+                                            <img src="/img/frames/frame1.png" alt="" />
                                         </li>
                                         {/* **** */}
                                         <li>
-                                            <img src={frame3} alt="" />
+                                            <img src="/img/frames/frame2.png" alt="" />
                                         </li>
                                         {/* **** */}
 

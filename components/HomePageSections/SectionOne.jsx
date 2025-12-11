@@ -25,9 +25,8 @@ export default function SectionOne() {
 
                             {/* ********************************* */}
                             <div className="banner_sectionOne flex justify-center items-center  z-10">
-                                <div className="bg-ciculer  flex top-25  items-center justify-center  absolute ">
-                                    <img src="img/helloo.gif"
-                                    />
+                                <div className="bg-ciculer  flex top-25  items-center justify-center  absolute test">
+                                    <img src="/img/helloo.gif" />
                                 </div>
                                 <div className="banner_content text-center z-10">
                                     <h1 className="m-0">

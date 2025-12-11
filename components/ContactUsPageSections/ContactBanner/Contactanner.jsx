@@ -1,5 +1,4 @@
 
-import Img from "./img/aboutus.webp";
 export default function Contactanner() {
   return (
     <>
@@ -25,7 +24,7 @@ export default function Contactanner() {
             <div className="col-12 col-lg-5 d-none d-lg-block">
               {/* ******************************** */}
               <div className="bannerImage pbr ">
-                <img src={Img} className="rounded-3xl" alt="" />
+                <img src="/Aboutus/aboutus.webp" className="rounded-3xl" alt="" />
               </div>
               {/* ******************************** */}
             </div>

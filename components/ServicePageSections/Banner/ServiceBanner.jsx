@@ -1,5 +1,5 @@
 
-import img from "../../AboutUsPageSections/img/aboutus.webp";
+
 export default function ServiceBanner() {
   return (
     <>
@@ -20,7 +20,7 @@ export default function ServiceBanner() {
             </div>
             <div className="col-12 col-lg-5 d-none d-lg-block">
               <div className="banner_img pbr">
-                <img src={img} alt="" className="rounded-3xl" />
+                <img src="/Aboutus/aboutus.webp" alt="" className="rounded-3xl" />
               </div>
             </div>
           </div>

@@ -1,7 +1,4 @@
 
-import img1 from "../img/contract-staffing.webp";
-import img2 from "../img/permanent-staffing.webp";
-import img3 from "../img/temporary-staffing1.webp";
 import { RiUserStarLine } from "react-icons/ri";
 export default function StaffingSection() {
 
@@ -16,7 +13,7 @@ export default function StaffingSection() {
             <div className="col-12 col-lg-4 col-md-4 col-sm-12  ">
               <div className="staffing_box">
                 <div className="staffing_img">
-                  <img src={img3} className="rounded-3xl" alt="" />
+                  <img src="/service/temporary-staffing1.webp" className="rounded-3xl" alt="" />
                 </div>
                 {/* ****** */}
                 <div className="staffing_detail">
@@ -42,7 +39,7 @@ export default function StaffingSection() {
             <div className="col-12 col-lg-4 col-md-4 col-sm-12  ">
               <div className="staffing_box">
                 <div className="staffing_img">
-                  <img src={img2} className="rounded-3xl" alt="" />
+                  <img src="/service/permanent-staffing.webp" className="rounded-3xl" alt="" />
                 </div>
                 {/* ****** */}
                 <div className="staffing_detail">
@@ -68,7 +65,7 @@ export default function StaffingSection() {
             <div className="col-12 col-lg-4 col-md-4 col-sm-12  ">
               <div className="staffing_box">
                 <div className="staffing_img">
-                  <img src={img1} className="rounded-3xl" alt="" />
+                  <img src="/service/contract-staffing.webp" className="rounded-3xl" alt="" />
                 </div>
                 {/* ****** */}
                 <div className="staffing_detail">

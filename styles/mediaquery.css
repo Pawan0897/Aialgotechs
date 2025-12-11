@@ -345,7 +345,7 @@
     min-height: 330px;
   }
   .center_built_button > .buit_button {
-    z-index: 1111111;
+    z-index: 111;
     max-width: 165px;
     height: 42px;
     margin-top: -114px;
@@ -360,7 +360,7 @@
     width: 155px;
   }
   .z-index {
-    z-index: 1111111;
+    z-index: 111;
   }
   .sectionOne {
     height: 100%;

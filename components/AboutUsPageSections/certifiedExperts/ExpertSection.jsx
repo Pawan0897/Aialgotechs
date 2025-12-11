@@ -1,5 +1,4 @@
 
-import expert_img from "../img/expert.webp";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri"; import { FaYoutube } from "react-icons/fa"; import { IoIosMail } from "react-icons/io";
@@ -34,7 +33,7 @@ export default function ExpertSection() {
                       <div className="card rounded-3xl">
                         <div className="img">
                           <img
-                            src={expert_img}
+                            src="/Aboutus/expert.webp"
                             alt=""
                             className="rounded-3xl"
                           />
@@ -84,7 +83,7 @@ export default function ExpertSection() {
                       <div className="card rounded-3xl">
                         <div className="img">
                           <img
-                            src={expert_img}
+                            src="/Aboutus/expert.webp"
                             alt=""
                             className="rounded-3xl"
                           />
@@ -139,7 +138,7 @@ export default function ExpertSection() {
                   <div className="card rounded-3xl">
                     <div className="img">
                       <img
-                        src={expert_img}
+                        src="/Aboutus/expert.webp"
                         alt=""
                         className="rounded-3xl"
                       />
@@ -189,7 +188,7 @@ export default function ExpertSection() {
                   <div className="card rounded-3xl">
                     <div className="img">
                       <img
-                        src={expert_img}
+                        src="/Aboutus/expert.webp"
                         alt=""
                         className="rounded-3xl"
                       />
@@ -239,7 +238,7 @@ export default function ExpertSection() {
                   <div className="card rounded-3xl">
                     <div className="img">
                       <img
-                        src={expert_img}
+                        src="/Aboutus/expert.webp"
                         alt=""
                         className="rounded-3xl"
                       />
@@ -289,7 +288,7 @@ export default function ExpertSection() {
                   <div className="card rounded-3xl">
                     <div className="img">
                       <img
-                        src={expert_img}
+                        src="/Aboutus/expert.webp"
                         alt=""
                         className="rounded-3xl"
                       />

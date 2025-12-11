@@ -1,6 +1,5 @@
 
 "use client";
-import scroller from "../../public/img/buble_gif.gif";
 import Header from "../components/Header"
 /**************************************************************************************************************************** */
 import SectionTwo from '../components/HomePageSections/SectionTwo'
@@ -14,6 +13,8 @@ import BlogSection from '../components/HomePageSections/blogs/BlogSection'
 import OurLocation from '../components/HomePageSections/ourlocation/OurLocation'
 import ArrrowButton from '../components/HomePageSections/fixed_button/ArrrowButton'
 import SectionSixth from "../components/HomePageSections/SectionSixth"
+
+import SectionFifth from '../components/HomePageSections/SectionFifth'
 import "../styles/mediaquery.css"
 /**************************************************************************************************************************** */
 interface ShinyTextProps {
@@ -47,7 +48,7 @@ export default function Home() {
               {/* ********************************* */}
               <div className="banner_sectionOne flex justify-center items-center  z-10">
                 <div className="bg-ciculer  flex top-25  items-center justify-center  absolute">
-                  <img src="../../public/img/buble_gif.gif" alt="" />
+                  <img src="/img/buble_gif.gif" alt="" />
                 </div>
                 <div className="banner_content text-center z-10">
                   <h1 className="m-0">
@@ -92,29 +93,17 @@ export default function Home() {
       </section >
       {/* ********************************************** */}
 
-      {/* ************* */}
       <SectionTwo />
-      {/* ************* */}
       <SectionThree />
-      {/* ************* */}
       <SectionFourth />
-      {/* ************* */}
-
-      {/* ************* */}
+      <SectionFifth />
       <SectionSixth />
-      {/* ************* */}
-      {/* <SectionSeventh /> */}
-      {/* ******************** */}
       <SectionSlider />
-      {/* *************** */}
       <BlogSection />
-      {/* ************* */}
-      <SectionEight />
-      {/* (((((((((((()))))))))))) */}
-
-      <OurLocation />
       <ArrrowButton />
-      {/* ******************** */}
+      <SectionEight />
+      <OurLocation />
+
       <Footer />
     </>
   );

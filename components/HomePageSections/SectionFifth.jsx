@@ -1,4 +1,4 @@
-import circle_icon from "../../public/img/icon/code-circle.jpg";
+
 import mobile from "../../public/img/icon/mobile.png";
 import cpu from "../../public/img/icon/cpu.png";
 import cloud from "../../public/img/icon/cloud.png";
@@ -11,7 +11,7 @@ export default function SectionFifth() {
   const [hovered, setHovered] = useState(1);
   const cards = [
     {
-      icon: circle_icon,
+      icon: "/img/icon/code-circle.jpg",
       title: (
         <>
           Custom Development <br /> Service
@@ -22,7 +22,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: mobile,
+      icon: "/img/icon/mobile.png",
       title: (
         <>
           Applications<br></br> Modernization
@@ -33,7 +33,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: cpu,
+      icon: "/img/icon/cpu.png",
       title: (
         <>
           Digital <br></br>Transformations
@@ -44,7 +44,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: cloud,
+      icon: "/img/icon/cloud.png",
       title: (
         <>
           Offshore Development <br></br>Service
@@ -55,7 +55,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: monitor_mobbile,
+      icon: "/img/icon/monitor-mobbile.png",
       title: (
         <>
           Digital Product <br></br> Development Service
@@ -66,7 +66,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: box_2,
+      icon: "/img/icon/box-2.png",
       title: (
         <>
           Gen Ai <br></br>Service
@@ -85,7 +85,7 @@ export default function SectionFifth() {
             <div className="col-12 col-md-10 col-xl-8 col-sm-12">
               <div className="section_fifth_title">
                 <h3>
-                  End-to-End Software & E-Commerce Development Services with
+                  End-to-End  Software & E-Commerce Development Services with
                   Global Experts
                 </h3>
               </div>

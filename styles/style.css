@@ -677,10 +677,10 @@ section {
 }
 
 .section_sixth_card > .card > .badge_title > h5 {
-  font-weight: 600;
-  font-size: 32px;
+  font-weight: 500;
+  font-size: 25px;
   line-height: 120%;
-  letter-spacing: -0.63px;
+  letter-spacing: 0.37px;
   text-align: center;
   vertical-align: middle;
   text-transform: capitalize;
@@ -696,8 +696,9 @@ section {
 }
 
 .section_sixth_card > .card > .badges_img > img {
-  width: 235px;
-  height: 245px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* ********************>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> section seventh  */

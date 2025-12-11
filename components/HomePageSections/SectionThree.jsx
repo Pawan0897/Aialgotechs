@@ -3,8 +3,6 @@ import CountUp from 'react-countup';
 import leftarrow_line from "../../public/img/icon/leftarrow_line.png";
 import rightarrow_line from "../../public/img/icon/rightarrow_line.png"
 import { useInView } from "react-intersection-observer";
-import robo_img from "../../public/img/robo_img.png";
-import blur_square from "../../public/img/blur.png"
 export default function SectionThree() {
     const { ref, inView } = useInView({
         triggerOnce: false,
@@ -15,9 +13,9 @@ export default function SectionThree() {
             <section className='sectionThree flex items-center  relative' ref={ref} aria-labelledby="section-three-title">
                 <div className="section_three_bg absolute  end-0 top-0">
                     <div className="bg_img absolute" aria-hidden="true">
-                        <img src={robo_img} alt="Robot illustration" />
+                        <img src="/img/robo_img.png" alt="Robot illustration" />
                         <div className="bg_blur" aria-hidden="true">
-                            <img src={blur_square} alt="decorative blur" />
+                            <img src="/img/blur.png" alt="decorative blur" />
                         </div>
                     </div>
                 </div>

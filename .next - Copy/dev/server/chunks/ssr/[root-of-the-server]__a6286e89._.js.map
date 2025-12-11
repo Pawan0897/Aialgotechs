@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Admin/Desktop/aialgotechweb/frontend/img/buble_gif.gif.mjs%20%28structured%20image%20object%20with%20data%20url%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 400, height: 300, blurWidth: 0, blurHeight: 0};\n"],"names":[],"mappings":";;;;AAAA;;uCACe;IAAE,KAAA,qIAAG;IAAE,OAAO;IAAK,QAAQ;IAAK,WAAW;IAAG,YAAY;AAAC"}}]
-}

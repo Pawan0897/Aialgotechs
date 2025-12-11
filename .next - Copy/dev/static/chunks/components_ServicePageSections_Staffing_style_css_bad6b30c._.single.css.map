@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/ServicePageSections/Staffing/style.css"],"sourcesContent":[".staffing_box > .staffing_detail{\r\n    padding:20px 20px;\r\n}\r\n.staffing_box{\r\n    margin:0px 15px;\r\n}\r\n.staffing_box > .staffing_detail .title > h5{\r\n    line-height: 1.4;\r\nfont-size: 24px;\r\nfont-weight: 600;\r\n}\r\n\r\n.staffing_box > .staffing_detail .title{\r\n    padding:10px 0px;\r\n}\r\n.staffing_box > .staffing_detail .title > .icon > svg{\r\n    font-size: 50px;\r\n    line-height: 1.4;\r\n    color:#2478ff;\r\n    margin-right:24px;\r\n}\r\n.staffing_box > .staffing_detail > .show_text > p{\r\n    font-weight: 300;\r\n    font-size: 13px;\r\n    color:#1c1d26;\r\n    padding-bottom: 0;\r\n   opacity: 0;\r\n   margin-top:-10px;\r\n    transform: translateY(-10px);\r\n    transition: .30s ease-in-out;\r\n}\r\n\r\n.staffing_box:hover .staffing_detail > .show_text > p{\r\n    transform: translateY(0px);\r\n  padding-bottom: 10px;\r\n   margin: 0;\r\n   opacity: 1;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;AAGA;;;;AAGA;;;;;;AAMA;;;;AAGA;;;;;;;AAMA;;;;;;;;;;;AAWA"}}]
-}

@@ -1,6 +1,4 @@
 
-import aword from "../img/awar.webp"
-import Image from "next/image";
 export default function Awords_section() {
   return (
     <>
@@ -27,7 +25,7 @@ export default function Awords_section() {
               <div className="aword_box p-15">
                 <div className="card border-0">
                   <div className="aword_card_img">
-                    <img src={aword} alt="" />
+                    <img src="/Aboutus/awar.webp" alt="" />
                   </div>
                 </div>
               </div>
@@ -38,7 +36,7 @@ export default function Awords_section() {
               <div className="aword_box p-15">
                 <div className="card border-0">
                   <div className="aword_card_img">
-                    <img src={aword} alt="" />
+                    <img src="/Aboutus/awar.webp" alt="" />
                   </div>
                 </div>
               </div>
@@ -49,7 +47,7 @@ export default function Awords_section() {
               <div className="aword_box p-15">
                 <div className="card border-0">
                   <div className="aword_card_img">
-                    <img src={aword} alt="" />
+                    <img src="/Aboutus/awar.webp" alt="" />
                   </div>
                 </div>
               </div>
@@ -60,7 +58,7 @@ export default function Awords_section() {
               <div className="aword_box p-15">
                 <div className="card border-0">
                   <div className="aword_card_img">
-                    <img src={aword} alt="" />
+                    <img src="/Aboutus/awar.webp" alt="" />
                   </div>
                 </div>
               </div>
@@ -71,7 +69,7 @@ export default function Awords_section() {
               <div className="aword_box p-15">
                 <div className="card border-0">
                   <div className="aword_card_img">
-                    <img src={aword} alt="" />
+                    <img src="/Aboutus/awar.webp" alt="" />
                   </div>
                 </div>
               </div>

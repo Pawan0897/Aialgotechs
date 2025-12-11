@@ -1,5 +1,4 @@
 
-import SectionFifth from '../HomePageSections/SectionFifth'
 
 export default function SectionFourth() {
     return (
@@ -36,7 +35,7 @@ export default function SectionFourth() {
                 </div>
             </section>
             {/* ************************************************************* */}
-            <SectionFifth />
+
         </>
     )
 }

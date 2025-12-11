@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/ServicePageSections/Banner/style.css"],"sourcesContent":[".service_banner{\r\n    \r\n    width: 100%;\r\n    height: 300px;\r\n    background-color: #2478ff;\r\n    padding:80px 40px 80px 40px;\r\n\r\n}\r\n.banner_img {\r\n    height: 300px;\r\n    width: 100%;\r\n}\r\n.banner_img > img{\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n}\r\n.service_banner > .banner_content >   h2{\r\n    font-size: 56px;\r\n    line-height: 1.1;\r\n    font-weight: 600;\r\n}\r\n.service_banner > .banner_content > p {\r\n    font-weight: 300;\r\n    font-size: 16px;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;AAQA;;;;;AAIA;;;;;;AAKA;;;;;;AAKA"}}]
-}

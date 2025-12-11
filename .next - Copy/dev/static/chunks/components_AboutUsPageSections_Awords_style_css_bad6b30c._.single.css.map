@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/AboutUsPageSections/Awords/style.css"],"sourcesContent":[".aword_box > .card >.aword_card_img > img{\r\n    width: 100%;\r\n    height: auto;\r\n    filter: opacity(60%);\r\n}\r\n.aword_title > h2{\r\nfont-size: 42px;\r\nfont-weight: 600;\r\n}\r\n.aword_title > p {\r\n         font-size: 14px;\r\n     font-weight: 300;\r\n     text-align: center;\r\n}"],"names":[],"mappings":"AAAA;;;;;;AAKA;;;;;AAIA"}}]
-}

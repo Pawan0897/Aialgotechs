@@ -1,5 +1,4 @@
 import star from "../../public/img/star_icon.png";
-import circle_img from "../../public/img/circle.png"
 
 export default function SectionTwo() {
 
@@ -16,32 +15,32 @@ export default function SectionTwo() {
                                     <div className="track">
                                         <div className="content d-flex">
                                             <div className="content-list ms-2 d-flex justify-content-center">
-                                                <span className='star_logo me-2'><img src={star} alt="" /></span><p>Mobile App Modernisation</p>
+                                                <span className='star_logo me-2'><img src="/img/star_icon.png" alt="" /></span><p>Mobile App Modernisation</p>
                                             </div>
                                             {/* **************** */}
                                             <div className="content-list ms-2 d-flex justify-content-center">
-                                                <span className='star_logo me-2'><img src={star} alt="" /></span><p>DevOps & Cloud</p>
+                                                <span className='star_logo me-2'><img src="/img/star_icon.png" alt="" /></span><p>DevOps & Cloud</p>
                                             </div>
                                             {/* ************** */}
                                             <div className="content-list ms-2 d-flex justify-content-center">
-                                                <span className='star_logo me-2'><img src={star} alt="" /></span><p>Database Development</p>
+                                                <span className='star_logo me-2'><img src="/img/star_icon.png" alt="" /></span><p>Database Development</p>
                                             </div>
                                             {/* ************* */}
                                             <div className="content-list ms-2 d-flex justify-content-center">
-                                                <span className='star_logo me-2'><img src={star} alt="" /></span><p>e-Commerce Development</p>
+                                                <span className='star_logo me-2'><img src="/img/star_icon.png" alt="" /></span><p>e-Commerce Development</p>
                                             </div>
                                             {/* ************* */}
                                             <div className="content-list ms-2 d-flex justify-content-center">
-                                                <span className='star_logo me-2'><img src={star} alt="" /></span><p>Mobile App Modernisation</p>
+                                                <span className='star_logo me-2'><img src="/img/star_icon.png" alt="" /></span><p>Mobile App Modernisation</p>
                                             </div>
                                             {/* ************* */}
                                             {/* ************* */}
                                             <div className="content-list ms-2 d-flex justify-content-center">
-                                                <span className='star_logo me-2'><img src={star} alt="" /></span><p>DevOps & Cloud</p>
+                                                <span className='star_logo me-2'><img src="/img/star_icon.png" alt="" /></span><p>DevOps & Cloud</p>
                                             </div>
                                             {/* ************* */}
                                             <div className="content-list ms-2 d-flex justify-content-center">
-                                                <span className='star_logo me-2'><img src={star} alt="" /></span><p>Database Development</p>
+                                                <span className='star_logo me-2'><img src="/img/star_icon.png" alt="" /></span><p>Database Development</p>
                                             </div>
 
 
@@ -58,7 +57,7 @@ export default function SectionTwo() {
                                 Built Your Success Story
                             </button>
                             {/* *** */}
-                            <img src={circle_img} alt="" />
+                            <img src="/img/circle.png" alt="" />
                         </div>
                     </div>
                     {/*right to left >>>>>>>>>>> */}

@@ -1,7 +1,5 @@
 import React from "react";
-import img from "../img/recruitment.webp";
 
-import icon from "../img/recruiter_icon.png";
 import { LiaUserTieSolid } from "react-icons/lia";
 import { AiOutlineArrowDown } from "react-icons/ai";
 export default function HiringSection() {
@@ -12,9 +10,9 @@ export default function HiringSection() {
           <div className="row">
             <div className="col-md-12">
               <div className="recruiter-banner">
-                <img src={img} className="rounded-3xl" alt="" />
+                <img src="/Aboutus/recruitment.webp" className="rounded-3xl" alt="" />
                 <div className="icon d-none d-lg-block">
-                  <img src={icon} alt="" />
+                  <img src="/Aboutus/recruiter_icon.png" alt="" />
                 </div>
               </div>
             </div>

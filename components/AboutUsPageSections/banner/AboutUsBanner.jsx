@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../img/aboutus.webp";
+
 export default function AboutUsBanner() {
   return (
     <>
@@ -23,7 +23,7 @@ export default function AboutUsBanner() {
             <div className="col-12 col-lg-5 d-none d-lg-block">
               {/* ******************************** */}
               <div className="bannerImage pbr ">
-                <img src={aboutImg} className="rounded-3xl" alt="" />
+                <img src="/Aboutus/aboutus.webp" className="rounded-3xl" alt="" />
               </div>
               {/* ******************************** */}
             </div>

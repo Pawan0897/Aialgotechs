@@ -1,5 +1,4 @@
-import React from "react";
-import block_img from "../img/recruitment-feature.webp";
+
 
 import ToggleButton from "./ToggleButton";
 export default function FuterWithUsSection() {
@@ -14,7 +13,7 @@ export default function FuterWithUsSection() {
                 {/* ************************************ */}
                 <div className="left_block">
                   <div className="block_img ">
-                    <img src={block_img} className="rounded-3xl" alt="test" />
+                    <img src="/Aboutus/recruitment-feature.webp" className="rounded-3xl" alt="test" />
                   </div>
                 </div>
                 {/* ************************************ */}

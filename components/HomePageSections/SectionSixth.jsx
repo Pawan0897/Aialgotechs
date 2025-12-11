@@ -1,8 +1,4 @@
-import badge1 from "../../public/img/badges/badge1.png"
-import badge2 from "../../public/img/badges/badge2.png"
-import badge3 from "../../public/img/badges/badge3.png"
-import badge4 from "../../public/img/badges/badge4.png"
-import Image from 'next/image'
+
 export default function SectionSixth() {
     return (
         <>
@@ -27,7 +23,7 @@ export default function SectionSixth() {
                                 <div className="section_sixth_card text-center rounded-2xl px-7 py-4 ">
                                     <div className="card border-0  flex justify-center items-center ">
                                         <div className="badges_img flex justify-center items-center border-0">
-                                            <img src={badge1} alt="" />
+                                            <img src="/img/badges/badge1.png" alt="" />
                                         </div>
                                         <div className="badge_title mt-10">
                                             <h5 className='text-light font-semibold'>Top Mobile App<br></br> Development</h5>
@@ -40,7 +36,7 @@ export default function SectionSixth() {
                                 <div className="section_sixth_card text-center rounded-2xl px-7 py-4 ">
                                     <div className="card border-0  flex justify-center items-center  ">
                                         <div className="badges_img flex justify-center items-center border-0">
-                                            <img src={badge4} alt="" />
+                                            <img src="/img/badges/badge2.png" alt="" />
                                         </div>
                                         <div className="badge_title mt-10">
                                             <h5 className='text-light font-semibold'>
@@ -55,7 +51,7 @@ export default function SectionSixth() {
                                 <div className="section_sixth_card text-center rounded-2xl px-7 py-4 ">
                                     <div className="card border-0  flex justify-center items-center  ">
                                         <div className="badges_img flex justify-center items-center border-0">
-                                            <img src={badge2} alt="" />
+                                            <img src="/img/badges/badge3.png" alt="" />
                                         </div>
                                         <div className="badge_title mt-10">
                                             <h5 className='text-light font-semibold'>Upwork Expert Vetted<br></br> Profile</h5>
@@ -68,7 +64,7 @@ export default function SectionSixth() {
                                 <div className="section_sixth_card text-center rounded-2xl px-7 py-4 ">
                                     <div className="card border-0  flex justify-center items-center ">
                                         <div className="badges_img flex justify-center items-center border-0">
-                                            <img src={badge3} alt="" />
+                                            <img src="/img/badges/badge4.png" alt="" />
                                         </div>
                                         <div className="badge_title mt-10">
                                             <h5 className='text-light font-semibold'>Google Five Star<br></br> Rating</h5>

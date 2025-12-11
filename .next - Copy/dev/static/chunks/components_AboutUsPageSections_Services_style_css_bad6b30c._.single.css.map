@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/AboutUsPageSections/Services/style.css"],"sourcesContent":[":root {\r\n  --grey: #d6d6d6 !important;\r\n  --transper: hsla(67, 97%, 72%, 0.2);\r\n  --font-fam: \"Outfit\", sans-serif !important;\r\n}\r\n\r\n.aboutService_box {\r\n  padding: 32px 48px 20px 50px;\r\n  border-left: 1px solid #e0e0e0;\r\n}\r\n\r\n.aboutService_box > .box_item > .item_icon > i {\r\n  font-size: 60px;\r\n  background-color: #fbdf2d;\r\n  position: relative;\r\n  z-index: 1111;\r\n  border-radius: 50%;\r\n}\r\n.aboutService_box > .box_item {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 20px;\r\n}\r\n.aboutService_box > .box_item > .box-detail > p {\r\n  font-family: var(--font-fam);\r\n  font-size: 15px;\r\n  line-height: inherit;\r\n  word-spacing: 0px;\r\n}\r\n.aboutService_box > .box_item > .item_icon > i::before {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  content: \"\";\r\n  width: 75px;\r\n  height: 75px;\r\n  bottom: 0;\r\n  border-radius: 50%;\r\n  z-index: -1;\r\n  background-color: hsla(52, 96%, 58%, calc(100% - 80%));\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;AAKA;;;;;;;;AAOA;;;;;;AAKA;;;;;;;AAMA"}}]
-}

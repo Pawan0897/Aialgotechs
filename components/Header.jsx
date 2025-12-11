@@ -1,11 +1,8 @@
 "use client";
-import logo from "../public/img/algotechs_logo.png";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import mega_menu_img from "../public/img/mega_menu_img.webp";
 import { CgMenuRightAlt } from "react-icons/cg";
 import Link from "next/link";
 import { useState } from "react";
-import Image from "next/image";
 
 export default function Header() {
     const [show, setShow] = useState(false);
@@ -35,7 +32,7 @@ export default function Header() {
                         {/* Logo */}
                         <Link className="navbar-brand" href="/">
                             <div className="logo">
-                                <img src={logo} alt="Algotechs Logo" />
+                                <img src="/img/algotechs_logo.png" alt="Algotechs Logo" />
                             </div>
                         </Link>
                         {/* Toggle button for mobile */}
@@ -149,7 +146,7 @@ export default function Header() {
                                                 {/* ********************************** */}
                                                 <div className="col-4">
                                                     <img
-                                                        src={mega_menu_img}
+                                                        src="/img/mega_menu_img.webp"
                                                         alt="Services preview"
                                                         className="img-fluid rounded"
                                                     />
@@ -329,7 +326,7 @@ export default function Header() {
                                                     <div className="col-md-6">
                                                         <div className="mega_menu_img ">
                                                             <img
-                                                                src="../../public/img/algotechs_logo.png"
+                                                                src="/img/mega_menu_img.webp"
                                                                 className="rounded-2xl"
                                                                 alt="Canvas image"
                                                             />

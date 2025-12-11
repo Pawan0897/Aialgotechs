@@ -9,7 +9,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <div className={`section_ninth_contact_form p-10 rounded-2xl ${location.pathname == "/services" ? "bg-form-blue" : "bg-form-grey"} `}>
+      <div className={`section_ninth_contact_form p-10 rounded-2xl ${location.pathname == "/services" ? "bg-form-grey" : "bg-form-blue"} `}>
         <div className="contact_form_bg px-3 py-4 ">
           <div className="contact_title mb-5 ">
             <h3 className="text-light">Request a Service</h3>
@@ -87,7 +87,7 @@ export default function ContactForm() {
               </div>
               {/* ********************* */}
               <div className="section_fourth_button flex justify-end">
-                <div className={`contact_button rounded-3xl ${location.pathname === "/services" ? "" : "btn_yellow"} `}>
+                <div className={`contact_button rounded-3xl ${location.pathname == "/services" ? "" : "btn_yellow"} `}>
                   <button className={`${location.pathname === "/services" ? "btn_yellow" : ""} `}>
                     Send Message{" "}
                     <span>

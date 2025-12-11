@@ -1,6 +1,5 @@
 import React from 'react'
 import ContactForm from './ContactForm'
-import bg_img from "./img/contact_bg.png"
 import "./style.css"
 export default function ContactBlock() {
     return (
@@ -13,7 +12,7 @@ export default function ContactBlock() {
                         </div>
                         <div className="col-12 col-lg-5 col-md-12 order-1 order-lg-2">
                             <div className="contact_side_bg">
-                                <img src={bg_img} alt="" />
+                                <img src="/contact_bg.png" alt="" />
                             </div>
                         </div>
                     </div>
