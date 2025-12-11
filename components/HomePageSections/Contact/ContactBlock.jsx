@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ContactForm from './ContactForm'
 import "./style.css"
 export default function ContactBlock() {

@@ -53,8 +53,8 @@ export default function HiringSection() {
                 {/* *********** */}
                 {/* *************** */}
                 <div className="detail d-flex">
-                  <a className="flex justify-center items-center text-decoration-none">
-                    <span></span>
+                  <a className=" flex justify-center items-center text-decoration-none">
+                    <span>  <AiOutlineArrowDown /></span>
                     <span>Learn More</span>
                     <span>
                       <AiOutlineArrowDown />

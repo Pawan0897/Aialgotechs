@@ -5,7 +5,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { Projects } from "./Projects";
-import img1 from "./img/executive-search.webp"
 import Link from "next/link";
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -65,12 +64,12 @@ export default function Card() {
                               <h5 className="capitalize">{item.title}</h5>
                               <h2>Talent sourcing</h2>
                               <p>{item.description}</p>
-                              <div className="button flex  items-center">
+                              <div className="button scroll_stack_button flex  items-center">
                                 <Link href={""} className="rounded-2xl">
                                   <span>
                                     <AiOutlineArrowDown />
                                   </span>
-                                  <p>Read more</p>
+                                  <span>Read more</span>
                                   <span>
                                     <AiOutlineArrowDown />
                                   </span>
@@ -99,7 +98,7 @@ export default function Card() {
             <div className="col-12 col-md-12 bg-backgorund">
               <div className="md-scroll-stack-block">
                 <div className="md-scroll-img ">
-                  <img src={img1} alt="" className="rounded-3xl" />
+                  <img src="/service/executive-search.webp" alt="" className="rounded-3xl" />
                 </div>
                 {/* ****************** */}
                 <div className="md-scroll-details">

@@ -3,6 +3,9 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { CgMenuRightAlt } from "react-icons/cg";
 import Link from "next/link";
 import { useState } from "react";
+import StaggeredDropDown from "./HomePageSections/DropdownTwo/StaggeredDropDown";
+import ShiftingDropDown from "./HomePageSections/ShiftingDropDown";
+
 
 export default function Header() {
     const [show, setShow] = useState(false);
@@ -224,7 +227,13 @@ export default function Header() {
                                                                 <Link href={"/aboutus"}>About Us</Link>
                                                             </li>
                                                             <li>
-                                                                <Link href={"/services"}> Our Services</Link>
+                                                                <StaggeredDropDown />
+                                                            </li>
+                                                            <li>
+                                                                <Link href={"/services"}> <ShiftingDropDown /></Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link href={"/services"}>  </Link>
                                                             </li>
                                                             <li>
                                                                 <Link href={""}> Case Studies</Link>

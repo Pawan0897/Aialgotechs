@@ -1164,6 +1164,42 @@ section {
     opacity: 1;
   }
 }
+/* ********************************** canvas dropdown  */
+.canvas_dropdown_drop_span {
+  color: #e0e0e0;
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.canvas_dropdown_drop_btn > span:nth-child(2) svg {
+  font-size: 40px;
+}
+.canvas_dropdown_drop_inner_btn {
+  color: #e0e0e0;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.canvas_dropdown {
+  width: 100%;
+}
+.canvas_dropdown_drop > div {
+  width: 95% !important;
+}
+.canvas_drop {
+  width: 95% !important;
+}
+.canvas_dropdown > .canvas_dropdown_element > .canvas_dropdown_items > h6 {
+  background: linear-gradient(to top, var(--transper) 40%, transparent 40%);
+  color: #b7e9b0;
+  background: linear-gradient(to top, var(--transper) 40%, transparent 40%);
+  padding: 4px 8px;
+  display: inline-block;
+}
+.canvas_dropdown > .canvas_dropdown_element > .canvas_dropdown_items > a {
+  text-decoration: none;
+  background: none !important;
+}
 
 /* ************* button shine ............. */
 

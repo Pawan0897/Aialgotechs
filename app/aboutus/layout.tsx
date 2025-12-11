@@ -8,7 +8,6 @@ import '../../components/AboutUsPageSections/futureWithUs/style.css'
 import '../../components/AboutUsPageSections/MakeItHappen/style.css'
 import '../../components/AboutUsPageSections/ProgressNumber/style.css'
 import '../../components/AboutUsPageSections/Awords/style.css'
-
 import "../../components/AboutUsPageSections/Responsive/style.css"
 
 

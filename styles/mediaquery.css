@@ -675,6 +675,7 @@
   }
   .section_fifth_card > .card {
     padding: 26px 25px;
+    min-height: auto;
   }
   .blog_slider > .swiper > .swiper-wrapper > .swiper-slide > .card {
     min-height: 330px;
@@ -724,6 +725,12 @@
 }
 /* ************************************************************************************************************************************************************************************ */
 @media only screen and (max-width: 375px) {
+  /* ************************************ header navbar  */
+  .header > header > nav {
+    height: 75px !important;
+    padding: 10px 10px !important;
+  }
+  /* ***************************************** */
   .banner_sectionOne > .banner_content > h1 {
     font-size: 70px;
   }

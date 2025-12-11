@@ -11,7 +11,7 @@
   width: 100%;
   top: 0px;
   height: 800px;
-  background-image: url("./img/executive-search.webp");
+  background-image: url("/service/executive-search.webp");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -107,7 +107,7 @@
   margin: 0;
 }
 .scrollStack_content > .content > .stack_title > .button > a > span > svg {
-  transform: rotate(330deg);
+  transform: rotate(316deg);
   font-size: 30px;
 }
 .scrollStack_content
@@ -120,15 +120,72 @@
   margin-left: 10px;
   padding-left: 10px;
 }
-
-
-/* ********************************************************************************  small screen show block  ******************************************* */
-.md-scroll-details{
-  margin:30px 10px;
+/* **************************************************************************  hover effect ********************************************** */
+.scrollStack_content
+  > .content
+  > .stack_title
+  > .scroll_stack_button
+  > a
+  > span:nth-child(1) {
+  transform: translateX(-50px);
+  opacity: 0;
+  transition: 0.35s ease-in-out;
+}
+.scrollStack_content
+  > .content
+  > .stack_title
+  > .scroll_stack_button
+  > a:hover
+  span:nth-child(1) {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.scrollStack_content
+  > .content
+  > .stack_title
+  > .scroll_stack_button
+  > a
+  > span:nth-child(3) {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 0.35s ease-in-out;
+}
+.scrollStack_content
+  > .content
+  > .stack_title
+  > .scroll_stack_button
+  > a
+  > span:nth-child(2) {
+  transform: translateX(-10px);
+  opacity: 1;
+  transition: 0.35s ease-in-out;
+}
+.scrollStack_content
+  > .content
+  > .stack_title
+  > .scroll_stack_button
+  > a:hover
+  span:nth-child(2) {
+  transform: translateX(10px);
+  opacity: 1;
+}
+.scrollStack_content
+  > .content
+  > .stack_title
+  > .scroll_stack_button
+  > a:hover
+  span:nth-child(3) {
+  transform: translateX(50px);
+  opacity: 0;
 }
 
-.md-scroll-details > .title > h5{
-   display: inline-block;
+/* ********************************************************************************  small screen show block  ******************************************* */
+.md-scroll-details {
+  margin: 30px 10px;
+}
+
+.md-scroll-details > .title > h5 {
+  display: inline-block;
   padding: 4px 8px;
   background: linear-gradient(
     to top,
@@ -141,16 +198,15 @@
   font-family: var(--font-fam);
   margin-top: 10px;
 }
-.md-scroll-details > .title > h2{
- font-size: 42px;
+.md-scroll-details > .title > h2 {
+  font-size: 42px;
   line-height: 1.1;
   color: #1c1d26;
   font-weight: 600;
 }
 
-.md-scroll-details > .title
-{
-    font-weight: 300;
+.md-scroll-details > .title {
+  font-weight: 300;
   font-size: 15px;
   display: flex;
   align-items: start;
@@ -159,8 +215,8 @@
   color: #1c1d26;
 }
 
-.md-scroll-details > .button > a{
-    display: flex;
+.md-scroll-details > .button > a {
+  display: flex;
   align-items: center;
   background-color: #1c1d26;
   padding: 15px 25px;
@@ -170,13 +226,13 @@
   color: #ffff;
   font-weight: 600;
 }
-.bg-backgorund{
+.bg-backgorund {
   position: relative;
 }
-.bg-backgorund::before{
-  content:"";
+.bg-backgorund::before {
+  content: "";
   left: -2%;
-  top:0;
+  top: 0;
   bottom: 0;
   position: absolute;
   right: 50%;

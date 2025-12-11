@@ -7,7 +7,7 @@ import { TbMailOpenedFilled } from "react-icons/tb";
 import { RiGlobalFill } from "react-icons/ri";
 import { LuMessageSquareHeart } from "react-icons/lu";
 import { RiHandbagFill } from "react-icons/ri";
-import img from "./img/circle_bg.svg";
+
 const data = [
   {
     icon: <RiHandbagFill />,
@@ -61,7 +61,7 @@ export default function Page() {
         <div className="container-fluid talent_source_bg p-0 rounded-3xl">
           {/* ************************************ */}
           <div className="top_header_bg">
-            <img src={img} alt="" />
+            <img src="/service/circle_bg.svg" alt="" />
           </div>
           <div className="row talent_source_box ">
             {/* ******************** */}

@@ -1,5 +1,4 @@
 import React from "react";
-import img from "./img/mission.webp";
 import { AiOutlineArrowDown } from "react-icons/ai";
 export default function MissionPage() {
   return (
@@ -25,9 +24,9 @@ export default function MissionPage() {
                     auctor pellentesque urna nam lectus. Non tellus risus leoat
                     dignissim sed nunc. Sit platea nunc egestas.
                   </p>
-                  <div className="button ">
+                  <div className="button  ">
                     <button className="capitalize flex justify-center items-center">
-                      <span> <AiOutlineArrowDown /></span> Our Case Studies <span> <AiOutlineArrowDown /></span>
+                      <span> <AiOutlineArrowDown /></span><span> Our Case Studies</span> <span> <AiOutlineArrowDown /></span>
                     </button>
                   </div>
                 </div>
