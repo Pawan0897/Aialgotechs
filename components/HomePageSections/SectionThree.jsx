@@ -1,7 +1,5 @@
 
 import CountUp from 'react-countup';
-import leftarrow_line from "../../public/img/icon/leftarrow_line.png";
-import rightarrow_line from "../../public/img/icon/rightarrow_line.png"
 import { useInView } from "react-intersection-observer";
 export default function SectionThree() {
     const { ref, inView } = useInView({
@@ -20,8 +18,8 @@ export default function SectionThree() {
                     </div>
                 </div>
                 {/* ********* */}
-                <div className="section_three_content ps-20">
-                    <div className="container-fluid  ">
+                <div className="section_three_content w-full">
+                    <div className="container  ">
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="section_three_title">
@@ -36,7 +34,7 @@ export default function SectionThree() {
                                         <p>
                                             {inView && <CountUp end={100} />}<strong>+</strong>
                                         </p>
-                                        <p><span><img src={leftarrow_line} alt="" /></span>Projects  <span><img src={rightarrow_line} alt="" /></span></p>
+                                        <p><span><img src="/img/icon/leftarrow_line.png" alt="" /></span>Projects  <span><img src="/img/icon/rightarrow_line.png" alt="" /></span></p>
                                     </div>
                                     {/* ********** */}
                                     {/* ************** */}
@@ -45,9 +43,9 @@ export default function SectionThree() {
                                             {inView && <CountUp end={50} />} <strong>+</strong>
                                         </p>
                                         <p>
-                                            <span><img src={leftarrow_line} alt="" /></span>
+                                            <span><img src="/img/icon/leftarrow_line.png" alt="" /></span>
                                             Employees
-                                            <span><img src={rightarrow_line} alt="" /></span>
+                                            <span><img src="/img/icon/rightarrow_line.png" alt="" /></span>
                                         </p>
                                     </div>
                                     {/* ************** */}
@@ -56,7 +54,7 @@ export default function SectionThree() {
 
                                             {inView && <CountUp end={20} />} <strong>+</strong>
                                         </p>
-                                        <p><span><img src={leftarrow_line} alt="" /></span>Countries Served  <span><img src={rightarrow_line} alt="" /></span></p>
+                                        <p><span><img src="/img/icon/leftarrow_line.png" alt="" /></span>Countries Served  <span><img src="/img/icon/rightarrow_line.png" alt="" /></span></p>
                                     </div>
                                     {/* ************** */}
                                     <div className="count_number">
@@ -64,7 +62,7 @@ export default function SectionThree() {
 
                                             {inView && <CountUp end={50} />} <strong>+</strong>
                                         </p>
-                                        <p><span><img src={leftarrow_line} alt="" /></span>Clients  <span><img src={rightarrow_line} alt="" /></span></p>
+                                        <p><span><img src="/img/icon/leftarrow_line.png" alt="" /></span>Clients  <span><img src="/img/icon/rightarrow_line.png" alt="" /></span></p>
                                     </div>
                                     {/* ************** */}
                                     <div className="count_number">
@@ -72,7 +70,7 @@ export default function SectionThree() {
 
                                             {inView && <CountUp end={97} />} <strong>%</strong>
                                         </p>
-                                        <p><span><img src={leftarrow_line} alt="" /></span>Retention Rate  <span><img src={rightarrow_line} alt="" /></span></p>
+                                        <p><span><img src="/img/icon/leftarrow_line.png" alt="" /></span>Retention Rate  <span><img src="/img/icon/rightarrow_line.png" alt="" /></span></p>
                                     </div>
                                     {/* ********** */}
                                 </div>

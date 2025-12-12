@@ -7,6 +7,7 @@ import {
     FiPieChart,
 } from "react-icons/fi";
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
 
 export default function ShiftingDropDown() {
     return (
@@ -165,34 +166,34 @@ const Products = () => {
                 <div className="canvas_dropdown_items">
                     <h6 className="mb-2 text-sm font-medium">Developmant</h6>
                     {/* ****************************** */}
-                    <a href="#" className="mb-1 block text-sm text-neutral-400 text-white">
+                    <Link to={""} className="mb-1 block text-sm text-neutral-400 text-white">
                         Web Development
-                    </a>
+                    </Link>
                     {/* ****************************** */}
-                    <a href="#" className="block text-sm text-neutral-400 text-white">
+                    <Link to={""} className="block text-sm text-neutral-400 text-white">
                         Mobile Apps
-                    </a>
+                    </Link>
                     {/* ****************************** */}
-                    <a href="#" className="block text-sm text-neutral-400 text-white">
+                    <Link to={""} className="block text-sm text-neutral-400 text-white">
                         Software Solutions
-                    </a>
+                    </Link>
                 </div>
                 {/* ************************************************************************************************************* */}
 
                 <div className="canvas_dropdown_items">
                     <h6 className="mb-2 text-sm font-medium">Design</h6>
                     {/* ****************************** */}
-                    <a href="#" className="mb-1 block text-sm text-neutral-400  no-underline text-white">
+                    <Link to={""} className="mb-1 block text-sm text-neutral-400  no-underline text-white">
                         UI/UX Design
-                    </a>
+                    </Link>
                     {/* ****************************** */}
-                    <a href="#" className="mb-1 block text-sm text-neutral-400  no-underline text-white">
+                    <Link to={""} className="mb-1 block text-sm text-neutral-400  no-underline text-white">
                         Branding
-                    </a>
+                    </Link>
                     {/* ****************************** */}
-                    <a href="#" className="block text-sm text-neutral-400  no-underline text-white">
+                    <Link to={""} className="block text-sm text-neutral-400  no-underline text-white">
                         Graphic Design
-                    </a>
+                    </Link>
                 </div>
                 {/* ************************************************************************************************************* */}
             </div>

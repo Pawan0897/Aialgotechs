@@ -12,6 +12,18 @@ const ShinyText = ({ text, disabled = false, speed = 5, className = '' }) => {
         </div>
     );
 }
+
+const ShinycontentText = ({ text2, disabled = false, speed = 5, className = '' }) => {
+    const animationDuration = `${speed}s`;
+    return (
+        <div
+            className={`shiny-text ${disabled ? 'disabled' : ''} ${className}`}
+            style={{ animationDuration }}
+        >
+            {text2}
+        </div>
+    );
+}
 export default function SectionOne() {
 
 
@@ -38,8 +50,15 @@ export default function SectionOne() {
                                         />
                                     </h1>
                                     <h4 className='text-end '>
+                                        <ShinycontentText
+                                            text2="bringing the global recruitment solutions"
+                                            disabled={false}
+                                            speed={3}
+                                            className="custom-class"
 
-                                        bringing the global recruitment solutions
+                                        />
+
+
                                     </h4>
                                     {/* ************************* */}
                                     <div className="banner_three_block flex  justify-center items-center mb-25 mt-36 ">

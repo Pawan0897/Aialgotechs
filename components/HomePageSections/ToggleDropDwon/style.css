@@ -1,0 +1,88 @@
+.dropdown_accordian > .accordion-item {
+  background-color: #f5f9ff00 !important;
+}
+.dropdown_accordian > .accordion-item > h2 > button {
+  background-color: #f5f9ff00 !important;
+  color: aliceblue;
+  padding: 24px 16px 24px 6px !important;
+  font-weight: 600;
+  font-size: 30px;
+}
+.dropdown_accordian
+  > .accordion-item
+  > .accordion-collapse
+  > .accordion-body
+  > p {
+  color: aliceblue;
+  font-size: 20px;
+}
+.dropdown_accordian > .accordion-item > .accordion-collapse > .accordion-body {
+  padding: 5px 20px !important;
+}
+
+.accordion-custom-header::after {
+  display: block !important;
+}
+.accordion-custom-header {
+  /* background-color: #1e293b !important; */
+  color: white !important;
+}
+.dropdown_accordian .accordion-button::after {
+  display: block !important;
+}
+.dropdown_accordian .accordion-button::after {
+  filter: invert() brightness(150%) !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+}
+.dropdown_accordian .accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.dropdown_accordian .accordion-button {
+  box-shadow: none !important;
+}
+
+/* ******************************************** */
+.Inner_Accordion_dropdown > .accordion-item {
+  background-color: #f5f9ff00 !important;
+}
+.Inner_Accordion_dropdown > .accordion-item > h2 > button {
+  background-color: #f5f9ff00 !important;
+  color: aliceblue;
+  padding: 0px 0px 0px 0px !important;
+  /* font-weight: 500; */
+  font-size: 20px;
+}
+.Inner_Accordion_dropdown
+  > .accordion-item
+  > .accordion-collapse
+  > .accordion-body
+  > p {
+  color: aliceblue;
+  font-size: 17px;
+}
+.Inner_Accordion_dropdown
+  .accordion-item
+  > .accordion-collapse
+  > .accordion-body {
+  padding: 15px 12px !important;
+}
+
+.Inner_Accordion_dropdown .accordion-button::after {
+  display: block !important;
+}
+.Inner_Accordion_dropdown .accordion-button::after {
+  filter: invert() brightness(150%) !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+}
+.Inner_Accordion_dropdown .accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.Inner_Accordion_dropdown .accordion-button {
+  box-shadow: none !important;
+}

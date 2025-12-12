@@ -22,6 +22,7 @@ interface ShinyTextProps {
   speed?: number,
   className?: string,
 }
+
 // ******************************************************************   */
 
 const ShinyText = ({ text, disabled = false, speed = 5, className = '' }: ShinyTextProps) => {
@@ -35,6 +36,32 @@ const ShinyText = ({ text, disabled = false, speed = 5, className = '' }: ShinyT
     </div>
   );
 }
+// *******************************************
+interface ShinyTextProps2 {
+  text2: string;
+  disabled?: boolean;
+  speed?: number;
+  className?: string;
+}
+
+const ShinyText2 = ({
+  text2,
+  disabled = false,
+  speed = 5,
+  className = "",
+}: ShinyTextProps2) => {
+  return (
+    <div
+      className={`shiny-text2 ${disabled ? "disabled" : ""} ${className}`}
+      style={{
+        ["--shine-speed" as any]: `${speed}s`,
+      }}
+    >
+      {text2}
+    </div>
+  );
+};
+// ********************************************
 export default function Home() {
   return (
     <>
@@ -58,9 +85,17 @@ export default function Home() {
                       className="custom-class"
                     />
                   </h1>
-                  <h4 className='text-end '>
+                  <h4 className='text-end text-danger   '>
+                    <ShinyText2
+                      text2="bringing the global recruitment solutions"
+                      disabled={false}
+                      speed={3}
+                      className="custom-class"
 
-                    bringing the global recruitment solutions
+
+                    />
+
+                    {/* bringing the global recruitment solutions */}
                   </h4>
                   {/* ************************* */}
                   <div className="banner_three_block flex  justify-center items-center mb-25 mt-36 ">

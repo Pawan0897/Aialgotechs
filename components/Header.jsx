@@ -3,10 +3,12 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { CgMenuRightAlt } from "react-icons/cg";
 import Link from "next/link";
 import { useState } from "react";
-import StaggeredDropDown from "./HomePageSections/DropdownTwo/StaggeredDropDown";
-import ShiftingDropDown from "./HomePageSections/ShiftingDropDown";
-
-
+import { AnimatePresence, motion } from "framer-motion";
+// import StaggeredDropDown from "./HomePageSections/DropdownTwo/StaggeredDropDown";
+// import ShiftingDropDown from "./HomePageSections/ShiftingDropDown";
+import NavbarServiceDropdown from "./HomePageSections/NavbarDropDown/NavbarServiceDropdown"
+import { MdKeyboardArrowDown } from "react-icons/md";
+import AccordianDropdown from "./HomePageSections/ToggleDropDwon/AccordianDropdown"
 export default function Header() {
     const [show, setShow] = useState(false);
     const [navOpen, setNavOpen] = useState(false);
@@ -60,105 +62,67 @@ export default function Header() {
                             id="navbarNav"
                         >
                             <ul className="navbar-nav text-center gap-4 text-lg-start">
-                                <li className="nav-item">
-                                    <Link
-                                        className="nav-link fw-semibold visible  hover:text-indigo-600"
-                                        href={"/"}
-                                    >
-                                        Technologies
-                                    </Link>
+                                {/* *************** dropdown  */}
+                                <li className="nav-item  flex  items-center ">
+
+                                    <NavbarServiceDropdown /> <span>  <MdKeyboardArrowDown /></span>
+
                                 </li>
 
                                 {/*  **************** dropdown */}
 
                                 <li
-                                    className="nav-item position-relative "
+                                    className="nav-item position-relative"
                                     onMouseEnter={openMenu}
                                     onMouseLeave={closeMenu}
                                 >
-                                    <span className="nav-link fw-semibold fw-semibold visible  hover:text-indigo-600 cursor-pointer">
-                                        Services
+                                    <span className="nav-link fw-semibold hover:text-indigo-600 cursor-pointer d-flex">
+                                        Services <MdKeyboardArrowDown />
                                     </span>
 
-                                    {/* Mega Menu>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
-                                    {servicesOpen && (
-                                        <div className="mega-menu-container shadow-lg p-4 bg-white absolute ">
-                                            <div className="row">
-                                                {/*********************************** */}
-                                                <div className="col-4">
-                                                    <h6 className="fw-bold mb-3">Development</h6>
-                                                    <ul className="list-unstyled">
-                                                        <li>
-                                                            <Link
-                                                                className="dropdown-item"
-                                                                href={"/services"}
-                                                            >
-                                                                Web Development
-                                                            </Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link
-                                                                className="dropdown-item"
-                                                                href={"/services"}
-                                                            >
-                                                                Mobile Apps
-                                                            </Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link
-                                                                className="dropdown-item"
-                                                                href={"/services"}
-                                                            >
-                                                                Software Solutions
-                                                            </Link>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+                                    {/* Animated Mega Menu */}
+                                    <AnimatePresence>
+                                        {servicesOpen && (
+                                            <motion.div
+                                                initial={{ opacity: 0, y: 10 }}
+                                                animate={{ opacity: 1, y: 0 }}
+                                                exit={{ opacity: 0, y: 10 }}
+                                                transition={{ duration: 0.25, ease: "easeOut" }}
+                                                className="mega-menu-container shadow-lg p-4 bg-white absolute"
+                                            >
+                                                <div className="row">
 
-                                                {/*********************************** */}
-                                                <div className="col-4">
-                                                    <h6 className="fw-bold mb-3">Design</h6>
-                                                    <ul className="list-unstyled">
-                                                        <li>
-                                                            <Link
-                                                                className="dropdown-item"
-                                                                href={"/services"}
-                                                            >
-                                                                UI/UX Design
-                                                            </Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link
-                                                                className="dropdown-item"
-                                                                href={"/services"}
-                                                            >
-                                                                Branding
-                                                            </Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link
-                                                                className="dropdown-item"
-                                                                href={"/services"}
-                                                            >
-                                                                Graphic Design
-                                                            </Link>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+                                                    <div className="col-4">
+                                                        <h6 className="fw-bold mb-3">Development</h6>
+                                                        <ul className="list-unstyled">
+                                                            <li><Link className="dropdown-item" href={"/services"}>Web Development</Link></li>
+                                                            <li><Link className="dropdown-item" href={"/services"}>Mobile Apps</Link></li>
+                                                            <li><Link className="dropdown-item" href={"/services"}>Software Solutions</Link></li>
+                                                        </ul>
+                                                    </div>
 
-                                                {/* ********************************** */}
-                                                <div className="col-4">
-                                                    <img
-                                                        src="/img/mega_menu_img.webp"
-                                                        alt="Services preview"
-                                                        className="img-fluid rounded"
-                                                    />
+                                                    <div className="col-4">
+                                                        <h6 className="fw-bold mb-3">Design</h6>
+                                                        <ul className="list-unstyled">
+                                                            <li><Link className="dropdown-item" href={"/services"}>UI/UX Design</Link></li>
+                                                            <li><Link className="dropdown-item" href={"/services"}>Branding</Link></li>
+                                                            <li><Link className="dropdown-item" href={"/services"}>Graphic Design</Link></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div className="col-4">
+                                                        <img
+                                                            src="/img/mega_menu_img.webp"
+                                                            alt="Services preview"
+                                                            className="img-fluid rounded"
+                                                        />
+                                                    </div>
+
                                                 </div>
-                                            </div>
-                                        </div>
-                                    )}
+                                            </motion.div>
+                                        )}
+                                    </AnimatePresence>
                                 </li>
-
                                 {/* *********************************************************************** */}
 
                                 <li className="nav-item">
@@ -188,20 +152,19 @@ export default function Header() {
                                     </Link>
                                 </li>
 
-                                <li className="nav-item visible toggle-button">
+                                <li className="nav-item ">
                                     <Link
-                                        className="nav-link text_blue"
-                                        onClick={handleShow}
+                                        className="nav-link fw-semibold visible  hover:text-indigo-600"
                                         href={""}
                                     >
-                                        <CgMenuRightAlt />
+                                        contact Us
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         {/* *************************  Off canvas ..................................................................*/}
 
-                        <Offcanvas show={show} onHide={handleClose} placement="end">
+                        <Offcanvas show={show} onHide={handleClose} placement="end" >
                             <Offcanvas.Header
                                 closeButton
                                 className="text-light text-amber-400"
@@ -209,39 +172,40 @@ export default function Header() {
                                 <Offcanvas.Title></Offcanvas.Title>
                             </Offcanvas.Header>
                             {/* ******************* */}
-                            <Offcanvas.Body>
+                            <Offcanvas.Body className="p-0">
                                 <div className="mega-menu">
-                                    <div className="container">
+                                    <div className="container p-0">
                                         <div className="row flex justify-center items-center">
                                             <div className="col-md-5">
                                                 <div className="mega_menu_item">
-                                                    <div className="mega_menu_link border-e-2 border-gray-400">
-                                                        <ul>
-                                                            <li>
+                                                    <div className="mega_menu_link  ">
+                                                        <ul className="">
+                                                            <li className="ps-4">
                                                                 <Link href={"/"}> Home</Link>
                                                             </li>
-                                                            <li>
+                                                            <li className="ps-4">
                                                                 <Link href={""}> Home Page</Link>
                                                             </li>
-                                                            <li>
+                                                            <li className="ps-4">
                                                                 <Link href={"/aboutus"}>About Us</Link>
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <StaggeredDropDown />
                                                             </li>
                                                             <li>
                                                                 <Link href={"/services"}> <ShiftingDropDown /></Link>
+                                                            </li> */}
+                                                            <li className="bg-slate-900 ps-4">
+                                                                <AccordianDropdown />
                                                             </li>
-                                                            <li>
-                                                                <Link href={"/services"}>  </Link>
-                                                            </li>
-                                                            <li>
+
+                                                            <li className="ps-4">
                                                                 <Link href={""}> Case Studies</Link>
                                                             </li>
-                                                            <li>
+                                                            <li className="ps-4">
                                                                 <Link href={""}> News & insights</Link>
                                                             </li>
-                                                            <li>
+                                                            <li className="ps-4">
                                                                 <Link href={"/contactus"}> Contact Us</Link>
                                                             </li>
                                                         </ul>
@@ -251,7 +215,7 @@ export default function Header() {
                                             <div className="col-md-7">
                                                 <div className="row flex">
                                                     <div className="col-md-5">
-                                                        <div className="mega_menu_info">
+                                                        <div className="mega_menu_info ps-4 pe-4 mt-4">
                                                             <div className="mega_menu_title">
                                                                 <h5>Get In Touch</h5>
                                                             </div>
@@ -333,7 +297,7 @@ export default function Header() {
                                                         </div>
                                                     </div>
                                                     <div className="col-md-6">
-                                                        <div className="mega_menu_img ">
+                                                        <div className="mega_menu_img ps-4 pe-4 ">
                                                             <img
                                                                 src="/img/mega_menu_img.webp"
                                                                 className="rounded-2xl"

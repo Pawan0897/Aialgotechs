@@ -79,8 +79,8 @@ export default function SectionFifth() {
   ];
   return (
     <>
-      <section className="sectionFifth bg_light ps-20 pe-20 pt-20 pb-20">
-        <div className="container-fluid">
+      <section className="sectionFifth bg_light pt-20 pb-20">
+        <div className="container">
           <div className="row mb-10">
             <div className="col-12 col-md-10 col-xl-8 col-sm-12">
               <div className="section_fifth_title">
@@ -106,7 +106,7 @@ export default function SectionFifth() {
                         <img src={item?.icon} width={50} alt="" />
                       </div>
                       {/* ********* */}
-                      <div className="section_fifth_title mt-6 z-20">
+                      <div className="section_fifth_title z-20">
                         <div className="content ">
                           <h5 className={`font-semibold`}>{item?.title}</h5>
                           <p
