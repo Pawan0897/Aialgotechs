@@ -10,8 +10,8 @@ import Footer from "../../components/Footer";
 import MissionPage from "../../components/ServicePageSections/Request&Service/MissionPage";
 import "../../components/ServicePageSections/Responsive/style.css";
 import ContactBlock from "../../components/HomePageSections/Contact/ContactBlock"
-
-
+import Swiper from "../../components/ServicePageSections/Swiper/Swiper_scroll"
+// import FetchHome from "../../components/ServicePageSections/Scroll/Page"
 function ServicesPage() {
     return (
         <>
@@ -19,7 +19,12 @@ function ServicesPage() {
             <ServiceBanner />
             <RequirementSection />
             <StaffingSection />
-            <Card />
+            {/* <Card /> */}
+
+            {/* <TryCard /> */}
+            {/* <FetchHome /> */}
+
+            <Swiper />
             <Page />
             <MissionPage />
             <ContactBlock />

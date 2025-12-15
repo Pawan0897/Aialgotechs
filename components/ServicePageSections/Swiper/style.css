@@ -1,0 +1,34 @@
+.mySwiper {
+  height: auto;
+  padding-top: 100px;
+
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+  font-size: 3rem;
+  border-radius: 20px;
+  transition: all 0.8s ease;
+}
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* full-screen like SR7 */
+  font-size: 3rem;
+  color: #fff;
+  border-radius: 20px;
+  transition: all 0.8s ease; /* smooth fade/scale */
+}
+
+/* Example background colors */

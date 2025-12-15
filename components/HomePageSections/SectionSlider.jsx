@@ -98,7 +98,7 @@ export default function SectionSlider() {
                                 </p>
                               </div>
                               {/* ******************* slider footer  */}
-                              <div className="slide_footer absolute bottom-7 ">
+                              <div className="slide_footer   ">
                                 <div className="user flex items-center ">
                                   <div className="user_img">
                                     <img src={item?.userInfo?.user_img} width={90} alt="" />

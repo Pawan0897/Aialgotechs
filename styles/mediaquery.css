@@ -317,6 +317,9 @@
     z-index: 111;
     background-color: white;
   }
+  .banner_sectionOne > .banner_content {
+    margin-bottom: 12%;
+  }
   .banner_sectionOne > .banner_content > h1 {
     font-size: 80px;
   }

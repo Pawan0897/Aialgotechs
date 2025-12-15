@@ -35,7 +35,7 @@ export default function BlogSection() {
     },
   ];
 
-  const [hoveredSlide, setHoveredSlide] = useState(null);
+  // const [hoveredSlide, setHoveredSlide] = useState(null);
 
   return (
     <>
@@ -96,42 +96,42 @@ export default function BlogSection() {
                 return (
                   <SwiperSlide
                     key={index}
-                    onMouseEnter={() => setHoveredSlide(index)}
-                    onMouseLeave={() => setHoveredSlide(null)}
-                    onClick={() => {
-                      if (window.innerWidth <= 480) {
-                        setHoveredSlide(index);
-                      }
-                    }}
+                  // onMouseEnter={() => setHoveredSlide(index)}
+                  // onMouseLeave={() => setHoveredSlide(null)}
+                  // onClick={() => {
+                  //   if (window.innerWidth <= 480) {
+                  //     setHoveredSlide(index);
+                  //   }
+                  // }}
                   >
                     <div
                       className="card p-4 text-start h-20 shadow-xl border-0 relative"
-                      style={{
-                        backgroundImage:
-                          hoveredSlide === index
-                            ? `url(${item?.hoverImage})`
-                            : "",
-                        color: hoveredSlide === index ? "#fff" : "#000",
-                        boxShadow:
-                          hoveredSlide === index
-                            ? "0px 0px 0px 0px #dddddd"
-                            : "0px 0px 9px 0px #dddddd",
-                        backgroundSize: "100%",
-                        backgroundRepeat: "no-repeat",
-                        backgroundPosition: "top center",
-                      }}
+                    // style={{
+                    //   backgroundImage:
+                    //     hoveredSlide === index
+                    //       ? `url(${item?.hoverImage})`
+                    //       : "",
+                    //   color: hoveredSlide === index ? "#fff" : "#000",
+                    //   boxShadow:
+                    //     hoveredSlide === index
+                    //       ? "0px 0px 0px 0px #dddddd"
+                    //       : "0px 0px 9px 0px #dddddd",
+                    //   backgroundSize: "100%",
+                    //   backgroundRepeat: "no-repeat",
+                    //   backgroundPosition: "top center",
+                    // }}
                     >
-                      <div className="blog_time">
+                      <div className="blog_time z-1">
                         <p>{item?.readTime}</p>
                       </div>
                       {/* ********* */}
-                      <div className="blog_body">
+                      <div className="blog_body z-1 ">
                         <h2>
                           Small Batch, Big Problem: Navigating the Peril of Underestimating Initial Demand in Fast Fashion an More Advanced
                         </h2>
                       </div>
                       {/* **** */}
-                      <div className="blog_button absolute bottom-5  ">
+                      <div className="blog_button absolute bottom-5 z-1 ">
 
                         <button className="animated-button  rounded"
                         >
@@ -149,7 +149,7 @@ export default function BlogSection() {
                             xmlns="http://www.w3.org/2000/svg"
                             className="arr-1"
 
-                            fill={hoveredSlide === index ? "white" : "black"}
+                            // fill={hoveredSlide === index ? "white" : "black"}
                             viewBox="0 0 24 24"
                           >
                             <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
