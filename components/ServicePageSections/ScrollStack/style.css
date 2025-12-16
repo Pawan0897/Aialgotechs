@@ -3,15 +3,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
-  margin-bottom: 90px;
+  padding-top: 50px;
+  /* margin-bottom: 90px; */
   border: 0px;
 }
 .custom-card {
-  position: absolute;
+  position: relative;
   width: 100%;
   top: 0px;
-  height: 800px;
+
   background-image: url("/service/executive-search.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,16 +57,22 @@
 }
 .scrollStack_content {
   background-color: #f4f4f4;
-  height: 800px;
+
   width: 100%;
   justify-content: center;
   display: flex;
   padding: 100px;
 }
+.scrollStack_content > .content > .stack_icon {
+  transform: 0.35s ease-in-out;
+}
+.scrollStack_content > .content:hover > .stack_icon {
+  transform: translateY(25px);
+}
 .scrollStack_content > .content > .stack_icon > svg {
   color: #d9d9d9;
   font-size: 170px;
-  transform: rotate(311deg);
+  transform: rotate(223deg);
 }
 .scrollStack_content > .content > .stack_title > h5 {
   display: inline-block;
@@ -240,4 +246,10 @@
   right: 50%;
   background-color: #f4f4f4;
   z-index: -1;
+}
+.cards,
+.custom-card,
+.scrollStack_content {
+  min-height: 840px;
+  height: auto;
 }

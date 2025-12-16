@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Accordion from 'react-bootstrap/Accordion';
 export default function DevelopmentDropdown() {
     return (
@@ -8,15 +9,20 @@ export default function DevelopmentDropdown() {
                     <Accordion.Header className="accordion-custom-header" >Developemnt</Accordion.Header>
                     <Accordion.Body className='p-0'>
                         <p className=''>
-                            Web  Development
+                            <Link className='text-decoration-none' href={"/services"}>
+                                Web  Development
+                            </Link>
                         </p>
                         <p>
-                            Mobile Desinfg
+                            <Link className='text-decoration-none' href={"/services"}>
+                                Mobile Desinfg
+                            </Link>
                         </p>
                         <p>
-                            Softwarew solutions
+                            <Link className='text-decoration-none' href={"/services"}>
+                                Softwarew solutions
+                            </Link>
                         </p>
-
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

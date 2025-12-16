@@ -63,14 +63,10 @@ export default function Header() {
                         >
                             <ul className="navbar-nav text-center gap-4 text-lg-start">
                                 {/* *************** dropdown  */}
-                                <li className="nav-item  flex  items-center ">
-
+                                <li className="nav-item  d-flex  align-items-center ">
                                     <NavbarServiceDropdown /> <span>  <MdKeyboardArrowDown /></span>
-
                                 </li>
-
                                 {/*  **************** dropdown */}
-
                                 <li
                                     className="nav-item position-relative"
                                     onMouseEnter={openMenu}

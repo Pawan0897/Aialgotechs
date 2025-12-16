@@ -3,6 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css";
 import DevelopmentDropdown from "./DevelopmentDropdown"
+import Link from 'next/link';
 export default function AccordianDropdown() {
     return (
         <>
@@ -15,13 +16,20 @@ export default function AccordianDropdown() {
                             <DevelopmentDropdown />
                         </p>
                         <p>
-                            UI/UX Design
+                            <Link href={"/services"}>
+
+                                UI/UX Design
+                            </Link>
                         </p>
                         <p>
-                            Graphic Design
+                            <Link href={"/services"}>
+                                Graphic Design
+                            </Link>
                         </p>
                         <p>
-                            Branding
+                            <Link href={"/services"}>
+                                Branding
+                            </Link>
                         </p>
                     </Accordion.Body>
                 </Accordion.Item>

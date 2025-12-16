@@ -1,9 +1,4 @@
 
-import mobile from "../../public/img/icon/mobile.png";
-import cpu from "../../public/img/icon/cpu.png";
-import cloud from "../../public/img/icon/cloud.png";
-import monitor_mobbile from "../../public/img/icon/monitor-mobbile.png";
-import box_2 from "../../public/img/icon/box-2.png";
 import { MdArrowOutward } from "react-icons/md";
 import { useState } from "react";
 // import { icon } from "leaflet";
@@ -11,7 +6,7 @@ export default function SectionFifth() {
   const [hovered, setHovered] = useState(1);
   const cards = [
     {
-      icon: "/img/icon/code-circle.jpg",
+      icon: "/img/icon/custom_development_service.webp",
       title: (
         <>
           Custom Development <br /> Service
@@ -22,7 +17,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: "/img/icon/mobile.png",
+      icon: "/img/icon/applications_modernization.webp",
       title: (
         <>
           Applications<br></br> Modernization
@@ -33,7 +28,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: "/img/icon/cpu.png",
+      icon: "/img/icon/digital_product_development_service.webp",
       title: (
         <>
           Digital <br></br>Transformations
@@ -44,7 +39,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: "/img/icon/cloud.png",
+      icon: "/img/icon/offshore_development_service.webp",
       title: (
         <>
           Offshore Development <br></br>Service
@@ -55,7 +50,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: "/img/icon/monitor-mobbile.png",
+      icon: "/img/icon/digital_product_development_service.webp",
       title: (
         <>
           Digital Product <br></br> Development Service
@@ -66,7 +61,7 @@ export default function SectionFifth() {
       arrowIcon: <MdArrowOutward />,
     },
     {
-      icon: "/img/icon/box-2.png",
+      icon: "/img/icon/gen_ai_service.webp",
       title: (
         <>
           Gen Ai <br></br>Service

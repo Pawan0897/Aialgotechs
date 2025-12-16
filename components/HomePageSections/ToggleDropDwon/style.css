@@ -14,7 +14,15 @@
   > .accordion-body
   > p {
   color: aliceblue;
-  font-size: 20px;
+}
+.dropdown_accordian
+  > .accordion-item
+  > .accordion-collapse
+  > .accordion-body
+  > p
+  > a {
+  text-decoration: none;
+  font-size: 16px;
 }
 .dropdown_accordian > .accordion-item > .accordion-collapse > .accordion-body {
   padding: 5px 20px !important;
